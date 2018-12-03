@@ -5,7 +5,7 @@
     <title>Eric Jäkel - Home</title>
     <meta name="description" content="On this page you find the best photographer in the world! You can explore photos of landscapes, macros, stars, action, events and much more." />
     
-    <?php include '../sources/IncludedContent/head.php';?>
+    <?php include ($_SERVER['DOCUMENT_ROOT'] . '/sources/IncludedContent/head.php');?>
     
 </head>
 <body>
@@ -17,7 +17,7 @@
 
     <div class="ContentBox">
 
-        <?php include '../sources/IncludedContent/menu.php'; ?>
+        <?php include ($_SERVER['DOCUMENT_ROOT'] . '/sources/IncludedContent/menu.php'); ?>
 
         <div class="alert alert-warning">Note: So far this is the only site on my domain available in English. Other sites are
         still in German but you can use the Google Translator widget.</div>
@@ -102,7 +102,7 @@
 
 
     <?php
-    include '/sources/IncludedContent/footer.php';
+    include ($_SERVER['DOCUMENT_ROOT'] . '/sources/IncludedContent/footer.php');
     ?>
 
     <div class="NotificationAlert" id="notificationAlert1" style="display: none;">
