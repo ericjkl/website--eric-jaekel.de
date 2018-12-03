@@ -1,0 +1,47 @@
+﻿@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans'), local('JosefinSans'), url(../fonts/JosefinSans-Light.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Josefin Sans Bold';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Bold'), local('JosefinSans'), url(../fonts/JosefinSans-Bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Spectral'), local('Spectral-Regular'), url(../fonts/Spectral-Regular.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'TitilliumWeb Black';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TitilliumWeb Black'), local('TitilliumWeb-Black'), url(../fonts/TitilliumWeb-Black.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'TitilliumWeb Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TitilliumWeb Regular'), local('TitilliumWeb-Regular'), url(../fonts/TitilliumWeb-Regular.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'TitilliumWeb Extra Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TitilliumWeb ExtraLight'), local('TitilliumWeb-ExtraLight'), url(../fonts/TitilliumWeb-ExtraLight.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}

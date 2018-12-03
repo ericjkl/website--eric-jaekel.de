@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /imprint.php
+Disallow: /privacy-policy.php
+Disallow: /open-source-licenses.php
+
+Sitemap: /sitemap.xml

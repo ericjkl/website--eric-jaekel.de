@@ -1,0 +1,12 @@
+- jpg-Metadaten mit php auslesen:
+	Hightlights = 5-Sterne-Bewertung
+	Infos: Titel, Beschr., Datum, Ort, Einst.
+	Suchfkt. anhand von Stichwörtern in metadaten
+	Sortierung nach Rubriken (so wie es ist ohne sortierung), Datum, Bewertung, Zufall
+- korrekte Breite der Bilder ausrechnen, die nicht im 3:2-Format sind (.portrait .square); s. scripts.js:191
+- Datenschutzerklärung
+- Kontaktformular
+- Blog bauen
+- Sitemap
+- strukturiertes Daten markup; google markup hilfe
+- bootstrap zu open source hinzufügen

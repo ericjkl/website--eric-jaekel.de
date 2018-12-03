@@ -1,0 +1,2 @@
+- wenn ein anderes bild als das aktuell geöffnete geöffnet wird, resetten sich die icons und blur-filter des danach geschlossenen bildes (das war vorher auf 100%, 
+jetzt aber wieder normal, weil anderes bild angeklickt wurde) nicht (geöffnet = flex-basis: 100%)
