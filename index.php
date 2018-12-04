@@ -145,9 +145,26 @@
                 </div>
             </a>
         </div>
-        
-            
+    </div>
 
+    <div class="ContentBox no-img-sections">
+        <h1 class="center-horizontal">Interessiert?</h1>
+        <p class="center-horizontal">Sie haben Interesse an meinen Fotos und möchten mich gerne buchen?
+            Hier sind Ihre Vorteile:</p>
+        <section class="text-with-icon">
+            <div class="section-img-wrapper">
+                <img src="sources/images/icon-nomoney.png" />
+            </div>
+            <div class="section-text">
+                <h2>Alles völlig kostenlos</h2>
+                <p>Ja, richtig gelesen! Wenn Sie mich als Fotograf buchen, kostet Sie das
+                    <strong>keinen Cent</strong>. Da ich noch ein sehr junger Fotograf bin,
+                sehe ich jeden Auftrag als Chance, neue Erfahrungen zu sammeln und meine
+                Fähigkeiten weiterzuentwickeln. Wenn Sie am Ende zufrieden sind und Ihnen meine
+                    Bilder gefallen, freue ich mich natürlich
+                trotzdem sehr über eine Spende.</p>
+            </div>
+        </section>
     </div>
 
 

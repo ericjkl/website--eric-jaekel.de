@@ -2,254 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59a08c29-9be1-46ea-a950-b15a8a1fdf9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/animals/DSC06353.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/animals/DSC06353.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/animals/animals001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/animals/animals001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/animals/animals004.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/animals/animals004.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/animals/animals005.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/animals/animals005.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/animals/animals006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/animals/animals006.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/animals/animals007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/animals/animals007.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/animals/animals008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/animals/animals008.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/animals/animals009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/animals/animals009.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/animals/animals010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/animals/animals010.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/001landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/001landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/002landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/002landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/004landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/004landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/005landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/005landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/006landscapes.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/006landscapes.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/007landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/007landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/008landscapes.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/008landscapes.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/009landscapes-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/009landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/009landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/010landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/010landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/011landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/011landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/012landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/012landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/013landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/013landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/014lanscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/014lanscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/015landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/015landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/016landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/016landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/017landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/017landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/018landscapes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/018landscapes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06119.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06119.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06136.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06136.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06162.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06162.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06218.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06218.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06286.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06286.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06294.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06294.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06319.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06319.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06336-Pano.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06336-Pano.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06342.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06342.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06363.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06363.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06364.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06364.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06367.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06367.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06369.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06369.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06613.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06613.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06624.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06624.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06646.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06646.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06665-Pano.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06665-Pano.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06677.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06677.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06703.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06703.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06712-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06712-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06751.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06751.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06754.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06754.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06757.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06757.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06758.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06758.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06759.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06759.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06761.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06761.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06798.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06798.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06802.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06802.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06803.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06803.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06807.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06807.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06923.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06923.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06940-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06940-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06949.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06949.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06984.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06984.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06993.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06993.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC06996.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC06996.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07012.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07015.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07015.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07021.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07026.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07026.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07029.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07029.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07039.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07039.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07059-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07059-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07065.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07065.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07075.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07075.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07082-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07082-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07097-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07097-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07100-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07100-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07129.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07129.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07177-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07177-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07238-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07238-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07241-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07241-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07274-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07274-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07282.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07282.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07291-Bearbeitet-Bearbeitet-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07291-Bearbeitet-Bearbeitet-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07343-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07343-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07352.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07352.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07355.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07355.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07357-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07357-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07360.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07360.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07362.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07362.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07372.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07372.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07374.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07374.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07391-Pano-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07391-Pano-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07412-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07412-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07415-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07415-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07418-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07418-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07431-Pano.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07431-Pano.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07441.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07441.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07450.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07450.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07451.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07451.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07454.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07454.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07457.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07457.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07459.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07459.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07460.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07460.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07461.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07461.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07466.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07466.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07470.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07470.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07471.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07471.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07472.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07472.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07474.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07474.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07482.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07482.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07488.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07488.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07495.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07495.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07498.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07498.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07510.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07510.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07518.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07518.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07526-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07526-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07544.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07544.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07561-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07561-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07570.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07570.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07571.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07571.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07572.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07572.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07576.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07576.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07577.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07577.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07590.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07590.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07592.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07592.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07594.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07594.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07618.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07618.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07621.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07621.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07625.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07625.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07627.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07627.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07628.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07628.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07629.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07629.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07637.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07637.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07654.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07654.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07664-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07664-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07665-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07665-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07671-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07671-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07677-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07677-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07686-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07686-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07695.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07695.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07698-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07698-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07707-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07707-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07720-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07720-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07721-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07721-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07728-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07728-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07770.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07770.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07771.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07771.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07776-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07776-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07846-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07846-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07854-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07854-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07891-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07891-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07894-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07894-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07936-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07936-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07944-HDR-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07944-HDR-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07949-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07949-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07958-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07958-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07959-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07959-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC07985-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC07985-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC08085-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC08085-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC08089-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC08089-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC08118-HDR-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC08118-HDR-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC08137.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC08137.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC08159.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC08159.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC08163-HDR-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC08163-HDR-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC08169-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC08169-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC08184-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC08184-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/landscapes/DSC08187-HDR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/landscapes/DSC08187-HDR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/001macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/001macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/001macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/002macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/002macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/002macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/003macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/003macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/003macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/004macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/004macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/004macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/005macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/005macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/005macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/006macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/006macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/006macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/007macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/007macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/007macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/008macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/008macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/008macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/009macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/009macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/009macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/010macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/010macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/010macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/011macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/011macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/011macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/012macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/012macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/012macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/013macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/013macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/013macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/014macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/014macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/014macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/015macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/015macro.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/015macro.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/016macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/016macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/016macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/017macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/017macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/017macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/018macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/018macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/018macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/019macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/019macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/019macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/020macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/020macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/020macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/021macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/022macro-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/022macro.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/022macro.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/023macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/023macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/024macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/024macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/025macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/025macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/026macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/026macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/027macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/027macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/028macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/028macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/029macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/029macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/030macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/030macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/macro/031macro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/macro/031macro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/001other.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/001other.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/002other.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/002other.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/003other-description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/003other.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/003other.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/004other.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/004other.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/006other.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/006other.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/007other.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/007other.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC06064.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC06064.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC06085.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC06085.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC06087.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC06087.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC06347.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC06347.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC06357.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC06357.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC06378.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC06378.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC06823-AFPORG-HQ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC07130.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC07130.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC07444.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC07444.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC07445.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC07445.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC07643.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC07643.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC07645.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC07645.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC07994.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC07994.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC08044.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC08044.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC08082-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC08082-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC08143.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC08143.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC08147-Bearbeitet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC08147-Bearbeitet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC08154.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC08154.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/images/other/DSC08158.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sources/images/other/DSC08158.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sources/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,10 +13,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6466314">
+    <splitter split-orientation="horizontal" split-proportion="0.56490064">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gallery.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="322">
@@ -274,37 +29,15 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sources/js/scripts.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/software.php">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.htaccess">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="31" selection-start-column="31" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sources/IncludedContent/head.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+                <state relative-caret-position="541">
+                  <caret line="164" column="51" lean-forward="true" selection-start-line="164" selection-start-column="51" selection-end-line="164" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -325,11 +58,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sources/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="28">
-                  <caret line="91" selection-start-line="91" selection-end-line="91" />
-                  <folding>
-                    <element signature="e#4468#4488#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="644">
+                  <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sources/js/scripts.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
                 </state>
               </provider>
             </entry>
@@ -348,13 +87,13 @@
         <option value="$PROJECT_DIR$/beta/index.php" />
         <option value="$PROJECT_DIR$/beta/sources/IncludedContent/head.php" />
         <option value="$PROJECT_DIR$/beta/sources/css/style.css" />
-        <option value="$PROJECT_DIR$/sources/css/style.css" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/gallery.php" />
         <option value="$PROJECT_DIR$/sources/js/scripts.js" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/sources/IncludedContent/head.php" />
         <option value="$PROJECT_DIR$/en/index.php" />
+        <option value="$PROJECT_DIR$/sources/css/style.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -370,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -403,7 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,19 +178,20 @@
       <workItem from="1543159708597" duration="5295000" />
       <workItem from="1543525162797" duration="5673000" />
       <workItem from="1543610255646" duration="3172000" />
-      <workItem from="1543841480588" duration="3956000" />
+      <workItem from="1543841480588" duration="4971000" />
+      <workItem from="1543937712017" duration="2004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19599000" />
+    <option name="totallyTimeSpent" value="22618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19296375" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.1191766" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -496,15 +236,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sources/js/blazy.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/js/blazy.min.js" />
     <entry file="file://$PROJECT_DIR$/beta/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -529,29 +261,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/IncludedContent/head.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,6 +278,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -579,11 +304,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="e#4468#4488#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="644">
+          <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="164" column="51" lean-forward="true" selection-start-line="164" selection-start-column="51" selection-end-line="164" selection-end-column="51" />
         </state>
       </provider>
     </entry>
