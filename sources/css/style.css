@@ -500,22 +500,37 @@ a:hover > .button-menu {
 
 .bigButton * {
   color: #0f0f0f;
+  transition: all ease-in-out 0.7s;
 }
 
 .bigButton-text {
   float: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
   width: 50%;
   font-size: 20px;
   padding-right: 2%;
-  justify-content: flex-end;
+  padding-left: 5%;
+  transition: all ease-out 0.7s;
+}
+
+.bigButton-text > * {
+  text-align: left;
+  width: 100%;
+  padding-left: 45%;
+}
+
+.bigButton-text > *:only-child {
   text-align: right;
+  width: 100%;
+  padding-left: 10%;
 }
 
 .bigButton-icon {
   width: 50%;
   height: 100%;
   padding: 5px 0 5px 3%;
-  transition: all ease-in-out 1s;
 }
 
 .bigButton-icon i {
@@ -526,6 +541,11 @@ a:hover > .button-menu {
 .bigButton:hover .bigButton-icon {
   padding-left: 30%;
   color: #eb0028;
+}
+
+.bigButton:hover .bigButton-text {
+  padding-left: 0;
+  padding-right: 7%;
 }
 
 div.date {
@@ -550,6 +570,14 @@ div.date {
   width: calc((2 / 5) * 100%);
   max-height: 100%;
   padding: 15px 4% 10px 4%;
+}
+
+.ContentBox:not(.no-img-sections) > section.change-ratio > img {
+  width: calc((2 / 5) * 100%);
+}
+
+.ContentBox:not(.no-img-sections) > section.change-ratio > div {
+  width: calc((3 / 5) * 100%);
 }
 
 .ContentBox:not(.no-img-sections) > section:nth-child(odd) > img {
