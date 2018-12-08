@@ -203,11 +203,19 @@
                 Lebensunterhaltes zu finanzieren. Bedenken Sie, dass ich als Schüler und als
                 junger und noch unerfahrener Fotograf auf externe Unterstützung angewiesen bin.</p>
 
-                <a href="donate.php">
+                <a href="https://www.patreon.com/join/ericjkl">
                     <div class="button-primary button-content button-no-icon">
                         jetzt Spenden
                     </div>
                 </a>
+
+                <div class="alert alert-info" role="alert">
+                    Hinweis: Mit dem Klick auf den Button "jetzt spenden" werden Sie auf
+                    die Plattform Patreon weitergeleitet, über welche der Spendenvorgang
+                    abgewickelt wird. Hier erhalten Sie <a href="https://support.patreon.com/hc/en-us" class="link-prm">
+                    weitere Informationen über Patreon</a>. Wenn Sie trotzdem noch Fragen
+                    haben, können Sie mich selbstverständlich auch kontaktieren.
+                </div>
 
             </div>
 

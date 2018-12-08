@@ -27,6 +27,11 @@ a {
   color: inherit;
 }
 
+a.link-prm {
+  color: #0068ff;
+  text-decoration: underline !important;
+}
+
 nav a {
   width: 100%;
   height: 100%;
@@ -729,6 +734,11 @@ footer img {
   height: 35px;
   width: auto;
   margin: 17.5px 17.5px 17.5px 17.5px;
+}
+
+#patreon-wordmark {
+  width: 140px;
+  height: auto;
 }
 
 footer h2 {
