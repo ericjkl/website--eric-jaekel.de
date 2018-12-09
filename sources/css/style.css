@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #000;
 }
 
@@ -47,18 +47,23 @@ p {
 }
 
 h1 {
-  font-size: 500%;
-  font-weight: 300;
+  font-size: 60px;
+  font-weight: 800;
 }
 
 h2 {
-  margin-bottom: 30px;
-  font-size: 400%;
-  font-weight: 300;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 200%;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 600;
 }
 
 p,
@@ -376,6 +381,10 @@ div.parallax-container p {
   flex-flow: row wrap;
 }
 
+.ContentBox .add-padding {
+  padding: 10px 5% 10px 5%;
+}
+
 .ContentBox p {
   text-align: justify;
 }
@@ -520,7 +529,7 @@ a:hover > .button-menu {
   transition: all ease-out 0.7s;
 }
 
-.bigButton-text > * {
+.bigButton-text > *:not(:only-child) {
   text-align: left;
   width: 100%;
   padding-left: 45%;
@@ -581,6 +590,11 @@ div.date {
   width: calc((2 / 5) * 100%);
 }
 
+.ContentBox:not(.no-img-sections) > section img.section-shrink-img {
+  width: calc(2 / 5 * 100% - 6%);
+  margin: 10px 3% 10px 3%;
+}
+
 .ContentBox:not(.no-img-sections) > section.change-ratio > div {
   width: calc((3 / 5) * 100%);
 }
@@ -620,6 +634,41 @@ div.date {
 
 .ContentBox:not(.no-img-sections) > section:last-child:nth-child(odd) {
   width: auto !important;
+}
+
+/*#endregion*/
+
+/*#region section fullscreen*/
+
+.section-fullscreen {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.section-fullscreen#bg-1 {
+  background-image: url("../images/landscapes/002landscapes.jpg");
+}
+
+.section-fullscreen * {
+  text-align: left !important;
+  color: #fff;
+}
+
+.section-fullscreen-text {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  padding: 5% 5% 5% 50%;
+}
+
+.section-fullscreen-text * {
+  padding: 20px;
 }
 
 /*#endregion*/
@@ -868,12 +917,20 @@ input[type="submit"] {
   .bigButton i {
     font-size: 80px;
   }
+  .bigButton-text > *:not(:only-child) {
+    padding-left: 15%;
+  }
   .ImageButton {
     width: 100%;
   }
   .ContentBox > section:not(.no-img-sections) > * {
     width: 100% !important;
     font-size: 30px !important;
+  }
+  .ContentBox > section:not(.no-img-sections) > img.section-shrink-img {
+    width: 85% !important;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
   }
   .ContentBox > section:not(.no-img-sections) > div {
     padding: 15px 4% 50px 4%;
@@ -950,6 +1007,9 @@ input[type="submit"] {
   footer img {
     width: 10vw;
     height: auto;
+  }
+  footer img#patreon-wordmark {
+    width: calc(20vw + 70px);
   }
 }
 

@@ -28,8 +28,10 @@
             </a>
             <a href="https://www.facebook.com/profile.php?id=100009464524622">
                 <img src="sources/images/facebook-logo-blue.png" />
+            </a><br/>
+            <a href="https://www.patreon.com/join/ericjkl">
+                <img src="sources/images/Patreon_Navy.jpg" id="patreon-wordmark"/>
             </a>
-
         </div>
 
         <p>© Copyright 2018 Eric Jäkel</p>

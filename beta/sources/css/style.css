@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #000;
 }
 
@@ -27,6 +27,11 @@ a {
   color: inherit;
 }
 
+a.link-prm {
+  color: #0068ff;
+  text-decoration: underline !important;
+}
+
 nav a {
   width: 100%;
   height: 100%;
@@ -42,18 +47,23 @@ p {
 }
 
 h1 {
-  font-size: 500%;
+  font-size: 60px;
   font-weight: 800;
 }
 
 h2 {
-  font-size: 400%;
-  font-weight: 800;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 200%;
+  font-size: 40px;
   font-weight: 700;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 600;
 }
 
 p,
@@ -83,6 +93,7 @@ i:hover {
 
 .center-horizontal {
   display: flex;
+  width: 100%;
   justify-content: center;
   text-align: center;
 }
@@ -117,7 +128,7 @@ i:hover {
 }
 
 .masonry-text {
-  padding: 5px 0 5px o;
+  padding: 2px 0 2px 0;
 }
 
 /* fullscreen viewer */
@@ -370,6 +381,10 @@ div.parallax-container p {
   flex-flow: row wrap;
 }
 
+.ContentBox .add-padding {
+  padding: 10px 5% 10px 5%;
+}
+
 .ContentBox p {
   text-align: justify;
 }
@@ -499,22 +514,37 @@ a:hover > .button-menu {
 
 .bigButton * {
   color: #0f0f0f;
+  transition: all ease-in-out 0.7s;
 }
 
 .bigButton-text {
   float: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
   width: 50%;
   font-size: 20px;
   padding-right: 2%;
-  justify-content: flex-end;
+  padding-left: 5%;
+  transition: all ease-out 0.7s;
+}
+
+.bigButton-text > *:not(:only-child) {
+  text-align: left;
+  width: 100%;
+  padding-left: 45%;
+}
+
+.bigButton-text > *:only-child {
   text-align: right;
+  width: 100%;
+  padding-left: 10%;
 }
 
 .bigButton-icon {
   width: 50%;
   height: 100%;
   padding: 5px 0 5px 3%;
-  transition: all ease-in-out 1s;
 }
 
 .bigButton-icon i {
@@ -525,6 +555,11 @@ a:hover > .button-menu {
 .bigButton:hover .bigButton-icon {
   padding-left: 30%;
   color: #eb0028;
+}
+
+.bigButton:hover .bigButton-text {
+  padding-left: 0;
+  padding-right: 7%;
 }
 
 div.date {
@@ -549,6 +584,19 @@ div.date {
   width: calc((2 / 5) * 100%);
   max-height: 100%;
   padding: 15px 4% 10px 4%;
+}
+
+.ContentBox:not(.no-img-sections) > section.change-ratio > img {
+  width: calc((2 / 5) * 100%);
+}
+
+.ContentBox:not(.no-img-sections) > section img.section-shrink-img {
+  width: calc(2 / 5 * 100% - 6%);
+  margin: 10px 3% 10px 3%;
+}
+
+.ContentBox:not(.no-img-sections) > section.change-ratio > div {
+  width: calc((3 / 5) * 100%);
 }
 
 .ContentBox:not(.no-img-sections) > section:nth-child(odd) > img {
@@ -737,6 +785,11 @@ footer img {
   margin: 17.5px 17.5px 17.5px 17.5px;
 }
 
+#patreon-wordmark {
+  width: 140px;
+  height: auto;
+}
+
 footer h2 {
   margin-top: 20px;
   font-size: 40px;
@@ -864,12 +917,20 @@ input[type="submit"] {
   .bigButton i {
     font-size: 80px;
   }
+  .bigButton-text > *:not(:only-child) {
+    padding-left: 15%;
+  }
   .ImageButton {
     width: 100%;
   }
   .ContentBox > section:not(.no-img-sections) > * {
     width: 100% !important;
     font-size: 30px !important;
+  }
+  .ContentBox > section:not(.no-img-sections) > img.section-shrink-img {
+    width: 85% !important;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
   }
   .ContentBox > section:not(.no-img-sections) > div {
     padding: 15px 4% 50px 4%;
@@ -946,6 +1007,9 @@ input[type="submit"] {
   footer img {
     width: 10vw;
     height: auto;
+  }
+  footer img#patreon-wordmark {
+    width: calc(20vw + 70px);
   }
 }
 

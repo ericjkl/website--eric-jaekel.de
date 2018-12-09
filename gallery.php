@@ -146,8 +146,7 @@ function outputCardsManually(...$all_filepaths) {
         <?php include 'sources/IncludedContent/menu.php'; ?>
 
         <div class="alert alert-warning" role="alert">
-            Diese Seite befindet sich noch in der Entwicklung. Daher kann es vor allem auf mobilen Geräten möglicherweise
-            zu Layoutfehlern und erhöhten Ladezeiten kommen.
+            Diese Seite befindet sich noch in der Entwicklung. Daher kann es vor allem auf mobilen Geräten zu Fehlern im Layout kommen.
         </div>
 
         <div>
@@ -177,7 +176,6 @@ function outputCardsManually(...$all_filepaths) {
                         'sources/images/macro/023macro.jpg',
                         'sources/images/macro/028macro.jpg',
                         'sources/images/other/DSC08154.jpg',
-                        'sources/images/landscapes/DSC06677.jpg',
                         'sources/images/other/DSC06087.jpg');
                     ?>
                 </ul>
