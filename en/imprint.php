@@ -4,15 +4,20 @@
 <head>
     <title>Impressum</title>
     <meta name="description" content="Im Impressum finden Sie meine Anschrift und alles Wichtige rund um das Urheberrecht" />
-    <?php include 'sources/IncludedContent/head.php';?>
+    <?php include 'IncludedContent/head.php';?>
 </head>
 <body>
 
     <?php
-    include 'sources/IncludedContent/menu.php';
+    include 'IncludedContent/menu.php';
     ?>    
 
-    <div class="ContentBox-FormalText">        
+    <div class="ContentBox-FormalText">
+
+        <div class="alert alert-warning">
+            Unfortunately, this page is not available in your language at the moment. I apologize
+            for the inconvenience. You see the requested page in German.
+        </div>
 
         <h1>Impressum</h1>
         <p>
@@ -65,7 +70,7 @@
     </div>
 
     <?php
-    include 'sources/IncludedContent/footer.php';
+    include 'IncludedContent/footer.php';
     ?>
     
 </body>

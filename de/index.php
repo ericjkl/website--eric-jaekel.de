@@ -5,36 +5,12 @@
     <title>Eric Jäkel - Home</title>
     <meta name="description" content="Auf dieser Seite finden Sie den besten Fotograf der Welt. Es gibt Fotos von Landschaften, Makros, Sternen, Action, Events und vielem mehr." />
     
-    <?php include "sources/IncludedContent/head.php";?>
+    <?php include "IncludedContent/head.php";?>
 
     
     
 </head>
 <body>
-
-    <div class="modal fade show bgblack" tabindex="-1" role="dialog" id="langNotification">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Hello friend!</h3>
-                    <button type="button" class="close" onclick="closeLangNotification()" aria-label="Close">
-                    <span aria-hidden="true" class="icon-x-nobootstrap">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>It seems that you are visiting this page from outside of Germany. Do you want to go to
-                    the international version of this website?</p>
-                    <p>Falls Sie die Seite auf Deutsch ansehen möchten, schließen Sie diese Nachricht einfach.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" onclick="closeLangNotification()">Close</button>
-                    <a href="./en/">
-                        <button type="button" class="btn btn-primary">Go to English version</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="parallax-container" id="parallax-index">
         <h1>Eric Jäkel</h1>
@@ -50,10 +26,10 @@
             </div>
         </div>
 
-        <?php include "sources/IncludedContent/menu.php"; ?>
+        <?php include "IncludedContent/menu.php"; ?>
 
         <section>
-            <img src="sources/images/landscapes/DSC07282.jpg" id="firstimgIndex" alt="Dieses Bild kann leider nicht angezeigt werden. :("/>
+            <img src="../sources/images/landscapes/DSC07282.jpg" id="firstimgIndex" alt="Dieses Bild kann leider nicht angezeigt werden. :("/>
             <div>
                 <h2>Hallo!</h2>
                 <p>
@@ -67,7 +43,7 @@
 
 
         <section>
-            <img src="sources/images/landscapes/009landscapes.jpg" alt="Landschaft / Dieses Bild kann leider nicht angezeigt werden. :("/>
+            <img src="../sources/images/landscapes/009landscapes.jpg" alt="Landschaft / Dieses Bild kann leider nicht angezeigt werden. :("/>
             <div>
                 <h2>Landschaften</h2>
                 <p>
@@ -82,7 +58,7 @@
         </section>
 
         <section>
-            <img src="sources/images/macro/001macro.jpg" alt="Blüte / Dieses Bild kann leider nicht angezeigt werden. :("/>
+            <img src="../sources/images/macro/001macro.jpg" alt="Blüte / Dieses Bild kann leider nicht angezeigt werden. :("/>
             <div>
                 <h2>Makro</h2>
                 <p>
@@ -96,7 +72,7 @@
         </section>
 
         <section>
-            <img src="sources/images/landscapes/DSC07654.jpg" alt="Gletscherwanderung / Dieses Bild kann leider nicht angezeigt werden. :("/>
+            <img src="../sources/images/landscapes/DSC07654.jpg" alt="Gletscherwanderung / Dieses Bild kann leider nicht angezeigt werden. :("/>
             <div>
                 <h2>Sport, Action &amp; Events</h2>
                 <p>
@@ -107,7 +83,7 @@
         </section>
 
         <section>
-            <img src="sources/images/other/003other.jpg" alt="Sternenhimmel / Dieses Bild kann leider nicht angezeigt werden. :("/>
+            <img src="../sources/images/other/003other.jpg" alt="Sternenhimmel / Dieses Bild kann leider nicht angezeigt werden. :("/>
             <div>
                 <h2>Alles Andere</h2>
                 <p>
@@ -136,7 +112,7 @@
 
             <section class="text-with-icon">
                 <div class="section-img-wrapper">
-                    <img src="sources/images/icon-nomoney.svg" />
+                    <img src="../sources/images/icon-nomoney.svg" />
                 </div>
                 <div class="section-text">
                     <h3>Alles völlig kostenlos</h3>
@@ -151,7 +127,7 @@
 
             <section class="text-with-icon">
                 <div class="section-img-wrapper">
-                    <img src="sources/images/icon-flexibility.svg" />
+                    <img src="../sources/images/icon-flexibility.svg" />
                 </div>
                 <div class="section-text">
                     <h3>Hohe Flexibilität</h3>
@@ -177,7 +153,7 @@
         </div>
 
         <section class="change-ratio">
-            <img src="sources/images/icon-donate.png" class="section-shrink-img" alt="Spenden"/>
+            <img src="../sources/images/icon-donate.png" class="section-shrink-img" alt="Spenden"/>
             <div>
                 <h2>Begeistert?</h2>
                 <p>Sie finden meine Bilder super und möchten mich unterstützen? Dann
@@ -211,7 +187,7 @@
 
 
     <?php
-    include "sources/IncludedContent/footer.php";
+    include "IncludedContent/footer.php";
     ?>
 
     <div class="NotificationAlert" id="notificationAlert1" style="display: none;">
@@ -220,37 +196,11 @@
         <a href="privacy-policy.php#cookies">
             <div class="formalButton">
                 Weitere Informationen
-                <img src="sources/images/ic_arrow_next.svg" />
+                <img src="../sources/images/ic_arrow_next.svg" />
             </div>
         </a>
-        <img src="sources/images/ic_close.svg" onclick="CloseNotificationAlert()" />
+        <img src="../sources/images/ic_close.svg" onclick="CloseNotificationAlert()" />
     </div>
-
-    <script>
-        let langNotification = document.getElementById('langNotification');
-
-        function closeLangNotification() {
-            langNotification.style.display = "none";
-            // resetScrolling();
-        }
-        let UserLanguageCode = navigator.language.toLowerCase();
-        let UserLanguage;
-        if (UserLanguageCode == "de-de" ||
-        UserLanguageCode == "de" ||
-        UserLanguageCode == "de-at" ||
-        UserLanguageCode == "de-li" ||
-        UserLanguageCode == "de-lu" ||
-        UserLanguageCode == "de-ch") {
-            UserLanguage = "German";
-        } else {
-            langNotification.style.display = 'block';
-            // disableScrolling();
-            document.getElementById('closeLangNotif').addEventListener("click", closeLangNotification);
-            UserLanguage = "English";
-        }
-        console.log("User language set to " + UserLanguage);
-    
-    </script>
 
 </body>
 </html>

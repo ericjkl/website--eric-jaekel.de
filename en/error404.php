@@ -3,23 +3,23 @@
 <html lang="de-de" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>404 - Not Found</title>
-    <?php include 'sources/IncludedContent/head.php';?>
+    <?php include 'IncludedContent/head.php';?>
 </head>
 <body>    
 
     <?php
-    include 'sources/IncludedContent/menu.php';
+    include 'IncludedContent/menu.php';
     ?>
 
     <div class="ContentBox-FormalText">        
     
-        <h1>Hoppla! Fehler 404</h1>
-        <p>Die angeforderte Seite wurde verschoben, gelöscht oder existiert nicht.</p>
-        <p>Möglichrweise ist der Link oder die URL, die Sie benutzt haben, fehlerhaft.</p>
-        <h2>Und jetzt?</h2>
+        <h1>Oops! Error 404</h1>
+        <p>The requested site was displaced, deleted or does not exist.</p>
+        <p>Possibly, the link or the URL you used was incorrect.</p>
+        <h2>What now?</h2>
         <a href="index.php">
             <div class="button-primary button-content">
-                Zur Homepage
+                To the Homepage
                 <div class="button-image-wrapper">
                     <i class="material-icons">chevron_right</i>
                 </div>                
@@ -28,7 +28,7 @@
         <br/>
         <a href="javascript:history.back()">
             <div class="button-primary button-content">
-                Zurück zur vorherigen Seite
+                Back to previous page
                 <div class="button-image-wrapper">
                     <i class="material-icons">chevron_right</i>
                 </div>                
@@ -37,7 +37,7 @@
     </div>
 
     <?php
-    include 'sources/IncludedContent/footer.php';
+    include 'IncludedContent/footer.php';
     ?>
     
 </body>

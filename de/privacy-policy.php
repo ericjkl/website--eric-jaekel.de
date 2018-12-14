@@ -4,12 +4,12 @@
 <head>
     <title>Datenschutz</title>
     <meta name="description" content="Alles, was Sie rund um das Thema Datenschutz wissen müssen." />
-    <?php include 'sources/IncludedContent/head.php';?>
+    <?php include 'IncludedContent/head.php';?>
 </head>
 <body>
 
     <?php
-    include 'sources/IncludedContent/menu.php';
+    include 'IncludedContent/menu.php';
     ?>    
 
     <div class="ContentBox-FormalText">
@@ -126,7 +126,7 @@ Wenn ein Nutzer Facebookmitglied ist und nicht möchte, dass Facebook über dies
     </div>
 
     <?php
-    include 'sources/IncludedContent/footer.php';
+    include 'IncludedContent/footer.php';
     ?>
 
 </body>

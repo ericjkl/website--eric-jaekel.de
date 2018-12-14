@@ -85,7 +85,7 @@
 
         
         <div class="bigButton">
-            <a href="/gallery.php">
+            <a href="/de/gallery.php">
                 <div class="center-vertical bigButton-text">
                     <h3>To gallery</h3>
                 </div>
@@ -108,7 +108,7 @@
     <div class="NotificationAlert" id="notificationAlert1" style="display: none;">
         <p>This site uses cookies to improve user-friendliness. By using this site,
         you agree to this.</p>
-        <a href="/privacy-policy.php#cookies">
+        <a href="/de/privacy-policy.php#cookies">
             <div class="formalButton">
                 Additional Information
                 <img src="/sources/images/ic_arrow_next.svg" />

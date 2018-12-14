@@ -22,21 +22,21 @@
             </div>
             
             
-            <a href="/index.php">
+            <a href="index.php">
                 <div>
                     <div class="button-menu">
                         Home
                     </div>
                 </div>                
             </a>
-            <a href="/gallery.php">
+            <a href="gallery.php">
                 <div>
                     <div class="button-menu">
                         Fotos
                     </div>
                 </div>                
             </a>
-            <a href="/software.php">
+            <a href="software.php">
                 <div>
                     <div class="button-menu">
                         Software

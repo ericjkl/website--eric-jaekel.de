@@ -4,15 +4,20 @@
 <head>
     <title>Open Source</title>
     <meta name="description" conten="Alle Open-Source-Lizenzen, die für bestimmte Inhalte auf dieser Webseite gültig sind, werden hier angezeigt." />
-    <?php include 'sources/IncludedContent/head.php';?>
+    <?php include 'IncludedContent/head.php';?>
 </head>
 <body>
 
     <?php
-    include 'sources/IncludedContent/menu.php';
+    include 'IncludedContent/menu.php';
     ?>    
 
     <div class="ContentBox-FormalText">
+
+        <div class="alert alert-warning">
+            Unfortunately, this page is not available in your language at the moment. I apologize
+            for the inconvenience. You see the requested page in German.
+        </div>
         
         <h1>Open-Source Lizenzen</h1>
         <p>
@@ -101,7 +106,7 @@
     </div>
 
     <?php
-    include 'sources/IncludedContent/footer.php';
+    include 'IncludedContent/footer.php';
     ?>
     
 </body>

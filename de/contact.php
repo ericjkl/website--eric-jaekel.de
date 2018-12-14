@@ -4,12 +4,12 @@
 <head>
     <title>Kontakt</title>
     <meta name="description" content="Falls Sie Fragen, Anregungen oder ein anderes Anliegenh haben, können Sie diese hier äußern." />
-    <?php include 'sources/IncludedContent/head.php';?>
+    <?php include 'IncludedContent/head.php';?>
 </head>
 <body>
 
     <?php
-    include 'sources/IncludedContent/menu.php';
+    include 'IncludedContent/menu.php';
     ?>    
 
     <div class="ContentBox-FormalText">
@@ -35,7 +35,7 @@
     </div>
 
     <?php
-    include 'sources/IncludedContent/footer.php';
+    include 'IncludedContent/footer.php';
     ?>
     
 </body>

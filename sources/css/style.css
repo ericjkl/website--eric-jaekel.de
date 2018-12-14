@@ -1058,6 +1058,10 @@ input[type="submit"] {
   cursor: not-allowed !important;
 }
 
+.grey.disabled-nobootstrap:hover {
+  color: grey;
+}
+
 .portrait {
   max-width: 60%;
 }

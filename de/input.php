@@ -4,12 +4,12 @@
 <head>
     <title>Kontakt</title>
     <meta name="description" content="Falls Sie Fragen, Anregungen oder ein anderes Anliegenh haben, können Sie diese hier äußern." />
-    <?php include 'sources/IncludedContent/head.php';?>
+    <?php include 'IncludedContent/head.php';?>
 </head>
 <body>
 
     <?php
-    include 'sources/IncludedContent/menu.php';
+    include 'IncludedContent/menu.php';
     ?>    
 
     <?php
@@ -43,7 +43,7 @@
                 <h4>Hier sind Ihre Daten noch einmal im Überblick:</h4>
                 <h5>Name: '.$_POST["name"].'</h5>
                 <h5>E-mail-Adresse: '.$_POST["email"].'</h5>
-                <h5>Nachricht: '.$_POST["message"].'</h5>
+                <h5>Nachricht: '.$_POST["message"]. '</h5>
 
                 <h3>Wo möchten Sie weitermachen?</h3>
                 <a href="index.php">
@@ -94,7 +94,7 @@
     </div>
 
     <?php
-    include 'sources/IncludedContent/footer.php';
+    include 'IncludedContent/footer.php';
     ?>
     
 </body>

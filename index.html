@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130676574-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130676574-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <title>Language tunnel</title>
+    <meta name="author" content="Eric Jäkel" />
+    <meta name="keywords" content="leipzig, foto, fotografie, photography, fotograf" />
+    <meta name="vieport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="theme-color" content="#0f0f0f" />
+    <link rel="icon" href="/sources/images/logo_ej.png" type="image/vnd.microsoft.icon">
+    <script>
+        let UserLanguageCode = navigator.language.toLowerCase();
+        if (UserLanguageCode != "de-de" &&
+            UserLanguageCode != "de" &&
+            UserLanguageCode != "de-at" &&
+            UserLanguageCode != "de-li" &&
+            UserLanguageCode != "de-lu" &&
+            UserLanguageCode != "de-ch") {
+            window.location = "./en";
+        } else {
+            window.location = "./de";
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

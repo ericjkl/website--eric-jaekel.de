@@ -2,7 +2,7 @@
 <head>
     <title>Blog: Geschichten aus dem Leben eines Star-Fotografen</title>
     <meta name="description" content="Hier gibt es alles rund um das Thema Foto als Blog. Lesen Sie spanndende Storys, News, Kommentare zu bestimmten Themen oder Neuigkeiten aus der Region Leipzig." />
-    <?php include 'sources/IncludedContent/head.php';?>
+    <?php include 'IncludedContent/head.php';?>
 </head>
 <body>
     
@@ -14,7 +14,7 @@
 
     <div class="ContentBox" id="blog">
 
-        <?php include 'sources/IncludedContent/menu.php'; ?>
+        <?php include 'IncludedContent/menu.php'; ?>
 
         <article>
             <div class="date">24.06.2018</div>
@@ -84,7 +84,7 @@ At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergr
 
     </div>
 
-    <?php include 'sources/IncludedContent/footer.php'; ?>
+    <?php include 'IncludedContent/footer.php'; ?>
 
 </body>
 </html>

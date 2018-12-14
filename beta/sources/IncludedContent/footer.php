@@ -3,19 +3,19 @@
             <h2>Info</h2>
             <ul>
                 <li><p><a href="imprint.php">Impressum</a></p></li>
-                <li><p><a href="/imprint.php#fairUse">Fair Use</a></p></li>
-                <li><p><a href="/privacy-policy.php">Datenschutz</a></p></li>
-                <li><p><a href="/open-source-licenses.php">Open Source</a></p></li>
-                <li><p><a href="/contact.php">Kontakt</a></p></li>
+                <li><p><a href="/de/imprint.php#fairUse">Fair Use</a></p></li>
+                <li><p><a href="/de/privacy-policy.php">Datenschutz</a></p></li>
+                <li><p><a href="/de/open-source-licenses.php">Open Source</a></p></li>
+                <li><p><a href="/de/contact.php">Kontakt</a></p></li>
             </ul>
         </div>
 
         <div>
             <h2>Navigation</h2>
             <ul>
-                <li><p><a href="/index.php">Home</a></p></li>
-                <li><p><a href="/gallery.php">Fotogalerie</a></p></li>
-                <li><p><a href="/software.php">Software</a></p></li>
+                <li><p><a href="/de/index.php">Home</a></p></li>
+                <li><p><a href="/de/gallery.php">Fotogalerie</a></p></li>
+                <li><p><a href="/de/software.php">Software</a></p></li>
                 <li><p><a href="#top">Nach oben</a></p></li>                
                 <li><p><a href="javascript:history.back()">Zurück</a></p></li>
             </ul>
