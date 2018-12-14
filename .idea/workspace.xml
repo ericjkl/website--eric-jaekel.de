@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59a08c29-9be1-46ea-a950-b15a8a1fdf9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/en/IncludedContent/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/IncludedContent/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/IncludedContent/menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/error404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/gallery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/imprint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/input.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/open-source-licenses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/privacy-policy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/software.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beta/en/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/beta/en/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beta/sources/IncludedContent/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/beta/sources/IncludedContent/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beta/sources/IncludedContent/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/beta/sources/IncludedContent/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error404.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/error404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/imprint.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/input.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open-source-licenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/open-source-licenses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy-policy.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/privacy-policy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/software.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/IncludedContent/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/IncludedContent/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/IncludedContent/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/IncludedContent/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/IncludedContent/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/IncludedContent/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/de/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/de/gallery.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,10 +30,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="-322">
               <caret line="145" column="52" selection-start-line="145" selection-start-column="52" selection-end-line="145" selection-end-column="52" />
               <folding>
                 <element signature="e#321#326#0#PHP" />
@@ -74,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="145" column="52" selection-start-line="145" selection-start-column="52" selection-end-line="145" selection-end-column="52" />
+            <state relative-caret-position="125">
+              <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
               <folding>
                 <element signature="e#310#315#0#PHP" />
               </folding>
@@ -249,21 +218,21 @@
       <workItem from="1544383224037" duration="3535000" />
       <workItem from="1544457237628" duration="10342000" />
       <workItem from="1544711860610" duration="2033000" />
-      <workItem from="1544815544554" duration="2889000" />
+      <workItem from="1544815544554" duration="3056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54944000" />
+    <option name="totallyTimeSpent" value="55111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.120469086" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.120469086" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.16359697" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.16359697" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -495,23 +464,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en/gallery.php">
+    <entry file="file://$PROJECT_DIR$/de/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="145" column="52" selection-start-line="145" selection-start-column="52" selection-end-line="145" selection-end-column="52" />
+        <state relative-caret-position="125">
+          <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
           <folding>
-            <element signature="e#321#326#0#PHP" />
-            <element signature="n#outputCardsManually#0;n#!!top" />
+            <element signature="e#310#315#0#PHP" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de/gallery.php">
+    <entry file="file://$PROJECT_DIR$/en/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="-322">
           <caret line="145" column="52" selection-start-line="145" selection-start-column="52" selection-end-line="145" selection-end-column="52" />
           <folding>
-            <element signature="e#310#315#0#PHP" />
+            <element signature="e#321#326#0#PHP" />
+            <element signature="n#outputCardsManually#0;n#!!top" />
           </folding>
         </state>
       </provider>

@@ -155,24 +155,24 @@ function outputCardsManually(...$all_filepaths) {
             <div class="cards-container-nobootstrap" id="imageContainer1">
                 <ul class="custom-masonry-image-list">
                     <?php 
-                    outputCardsManually('sources/images/landscapes/009landscapes.jpg',
-                        'sources/images/macro/001macro.jpg',
-                        'sources/images/macro/002macro.jpg',
-                        'sources/images/other/003other.jpg',
-                        'sources/images/landscapes/DSC03543-10.jpg',
-                        'sources/images/landscapes/DSC06286.jpg',
-                        'sources/images/landscapes/DSC06745-9--AFPPRT-HQ.jpg',
-                        'sources/images/landscapes/DSC07418-HDR.jpg',
-                        'sources/images/landscapes/DSC-07333-4-5--AFPHDR-HQ.jpg',
-                        'sources/images/landscapes/DSC07659-AFPORG-HQ.jpg',
-                        'sources/images/landscapes/DSC07664-Bearbeitet.jpg',
-                        'sources/images/landscapes/DSC07776-Bearbeitet.jpg',
-                        'sources/images/landscapes/DSC08118-HDR-Bearbeitet.jpg',
-                        'sources/images/macro/025macro.jpg',
-                        'sources/images/macro/023macro.jpg',
-                        'sources/images/macro/028macro.jpg',
-                        'sources/images/other/DSC08154.jpg',
-                        'sources/images/other/DSC06087.jpg');
+                    outputCardsManually('/sources/images/landscapes/009landscapes.jpg',
+                        '/sources/images/macro/001macro.jpg',
+                        '/sources/images/macro/002macro.jpg',
+                        '/sources/images/other/003other.jpg',
+                        '/sources/images/landscapes/DSC03543-10.jpg',
+                        '/sources/images/landscapes/DSC06286.jpg',
+                        '/sources/images/landscapes/DSC06745-9--AFPPRT-HQ.jpg',
+                        '/sources/images/landscapes/DSC07418-HDR.jpg',
+                        '/sources/images/landscapes/DSC-07333-4-5--AFPHDR-HQ.jpg',
+                        '/sources/images/landscapes/DSC07659-AFPORG-HQ.jpg',
+                        '/sources/images/landscapes/DSC07664-Bearbeitet.jpg',
+                        '/sources/images/landscapes/DSC07776-Bearbeitet.jpg',
+                        '/sources/images/landscapes/DSC08118-HDR-Bearbeitet.jpg',
+                        '/sources/images/macro/025macro.jpg',
+                        '/sources/images/macro/023macro.jpg',
+                        '/sources/images/macro/028macro.jpg',
+                        '/sources/images/other/DSC08154.jpg',
+                        '/sources/images/other/DSC06087.jpg');
                     ?>
                 </ul>
             </div>
