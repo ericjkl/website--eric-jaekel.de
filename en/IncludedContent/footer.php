@@ -23,8 +23,8 @@
                 <li><p><a href="index.php">Home</a></p></li>
                 <li><p><a href="gallery.php">Photo gallery</a></p></li>
                 <li><p><a href="software.php">Software</a></p></li>
-                <li><p><a href="#top">Got to top</a></p></li>
-                <li><p><a href="javascript:history.back()">Got back</a></p></li>
+                <li><p><a href="#top">Go to top</a></p></li>
+                <li><p><a href="javascript:history.back()">Go back</a></p></li>
                 <li><p><a href="" onclick="setNewLanguage('de'); return false;">Deutsch</a> / <a href="" class="grey disabled-nobootstrap" onclick="return false;">English</a></p></li>
             </ul>
         </div>

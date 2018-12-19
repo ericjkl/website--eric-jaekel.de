@@ -11,7 +11,7 @@
     include 'IncludedContent/menu.php';
     ?>
 
-    <div class="ContentBox-FormalText">        
+    <div class="ContentBox-FormalText" id="de">
     
         <h1>Hoppla! Fehler 404</h1>
         <p>Die angeforderte Seite wurde verschoben, gelöscht oder existiert nicht.</p>

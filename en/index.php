@@ -2,8 +2,8 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Eric Jäkel - Home</title>
-    <meta name="description" content="On this page you find the best photographer in the world! You can explore photos of landscapes, macros, stars, action, events and much more." />
+    <title>Eric Jäkel - Photographer from Leipzig</title>
+    <meta name="description" content="If you are looking for a photographer in the area of Leipzig, this is the website to click on! Plus, you can explore my photos of landscapes, macros, stars, action, events and much more." />
     
     <?php include 'IncludedContent/head.php';?>
     
@@ -99,7 +99,7 @@
 
             <section class="text-with-icon">
                 <div class="section-img-wrapper">
-                    <img src="sources/images/icon-nomoney.svg" />
+                    <img src="/sources/images/icon-nomoney.svg" />
                 </div>
                 <div class="section-text">
                     <h3>All free</h3>
@@ -113,7 +113,7 @@
 
             <section class="text-with-icon">
                 <div class="section-img-wrapper">
-                    <img src="sources/images/icon-flexibility.svg" />
+                    <img src="/sources/images/icon-flexibility.svg" />
                 </div>
                 <div class="section-text">
                     <h3>Much flexibility</h3>
@@ -139,7 +139,7 @@
         </div>
 
         <section class="change-ratio">
-            <img src="sources/images/icon-donate.png" class="section-shrink-img" alt="Spenden"/>
+            <img src="/sources/images/icon-donate.png" class="section-shrink-img" alt="Spenden"/>
             <div>
                 <h2>Delighted?</h2>
                 <p>You love my pictures and would like to support me? Then I am absolutely happy

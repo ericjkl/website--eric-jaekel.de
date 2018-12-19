@@ -1,6 +1,10 @@
 User-agent: *
-Disallow: /imprint.php
-Disallow: /privacy-policy.php
-Disallow: /open-source-licenses.php
+Disallow: /de/imprint.php
+Disallow: /de/privacy-policy.php
+Disallow: /de/open-source-licenses.php
+
+Disallow: /en/imprint.php
+Disallow: /en/privacy-policy.php
+Disallow: /en/open-source-licenses.php
 
 Sitemap: /sitemap.xml

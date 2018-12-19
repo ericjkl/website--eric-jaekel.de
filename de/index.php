@@ -2,12 +2,10 @@
 
 <html lang="de-de" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Eric Jäkel - Home</title>
-    <meta name="description" content="Auf dieser Seite finden Sie den besten Fotograf der Welt. Es gibt Fotos von Landschaften, Makros, Sternen, Action, Events und vielem mehr." />
+    <title>Eric Jäkel - Fotograf aus Leipzig</title>
+    <meta name="description" content="Sie suchen einen Fotografen für Ihr Event im Raum Leipzig? Dann sind Sie hier richtig! Außerdem finden Sie hier meine Fotos von Landschaften, Makros, Sternen, Action, Events und vielem mehr." />
     
     <?php include "IncludedContent/head.php";?>
-
-    
     
 </head>
 <body>
@@ -112,7 +110,7 @@
 
             <section class="text-with-icon">
                 <div class="section-img-wrapper">
-                    <img src="../sources/images/icon-nomoney.svg" />
+                    <img src="/sources/images/icon-nomoney.svg" />
                 </div>
                 <div class="section-text">
                     <h3>Alles völlig kostenlos</h3>
