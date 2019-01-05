@@ -15,7 +15,7 @@
 
     <div class="ContentBox-FormalText">
         
-        <h1>Kontakt</h1>
+        <h1>Contact</h1>
         <form id="message" method="post" action="input.php">
             <label form="message">
                 <label for="name">Name:</label>

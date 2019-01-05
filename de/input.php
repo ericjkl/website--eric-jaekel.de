@@ -16,8 +16,8 @@
     $submit_date = date("d.m.Y - H:i");
     $receiver1 =    'eric.jaekel@web.de';
     $receiver2 =    'info@eric-jaekel.de';
-    $subject =      utf8_decode('Neue Kontaktanfrage von '.$_POST["name"]);
-    $message =      utf8_decode('Kontaktanfrage: '. "\r\n\n" .
+    $subject =      utf8_encode('Neue Kontaktanfrage von '.$_POST["name"]);
+    $message =      utf8_encode('Kontaktanfrage: '. "\r\n\n" .
                     'Zeipunkt: '.$submit_date."\r\n" .
                     'Name: '.$_POST["name"]."\r\n".
                     'E-mail: '.$_POST["email"]."\r\n".
@@ -41,9 +41,9 @@
                     Ihre Anfrage wurde erfolgreich abgeschickt!
                 </div>
                 <h4>Hier sind Ihre Daten noch einmal im Überblick:</h4>
-                <h5>Name: '.$_POST["name"].'</h5>
-                <h5>E-mail-Adresse: '.$_POST["email"].'</h5>
-                <h5>Nachricht: '.$_POST["message"]. '</h5>
+                <h5>Name: '.utf8_encode($_POST["name"]).'</h5>
+                <h5>E-mail-Adresse: '.utf8_encode($_POST["email"]).'</h5>
+                <h5>Nachricht: '.utf8_encode($_POST["message"]). '</h5>
 
                 <h3>Wo möchten Sie weitermachen?</h3>
                 <a href="index.php">

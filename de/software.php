@@ -44,8 +44,7 @@
                 und Messgeräten, sondern beinhaltet auch einige lustige Features und Spiele. Funktionen sind unter anderem 
                 Kalorienrechner, BMI-Rechner, Zinsrechner und viele weitere! Außerdem können Sie eine Distanz messen, indem Sie
                 Ihr Gerät von A nach B bewegen. Um unsere App bereitzustellen,
-                nutzen wir React und React-native, programmieren also auf JavaScript-Basis. Die App ist für Android und iOS 
-                verfügbar.</p>
+                nutzen wir React und React-native, programmieren also auf JavaScript-Basis. Die App ist für Android verfügbar.</p>
                 <div class="alert alert-warning">
                     Hinweis: Die App befindet sich derzeit noch in der Beta-Phase. D. h. es sind 
                     momentan nur einige limitierte Funktionen verfügbar.
@@ -57,14 +56,6 @@
                             Download Android (.apk)
                         </div>
                     </a>
-                    
-                    <a class="disabled-nobootstrap">
-                        <div class="download-button">
-                            <i class="material-icons center-vertical-line disabled-nobootstrap">save_alt</i>
-                            Download iOS
-                        </div>
-                    </a>
-                    
                 </div>
             </div>
             
