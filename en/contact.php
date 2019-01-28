@@ -26,8 +26,9 @@
                 
                 <label for="message">Message:</label>
                 <textarea id="message" placeholder="Message" name="message"></textarea>
-                
-                <input type="submit" value="Submit message" class="button-primary button-content">
+
+                <div class="g-recaptcha" data-sitekey="6LdHx4wUAAAAAMY_RLaS6zaIhXhMc_F8_TPqp10u"></div>
+                <input type="submit" value="Submit message" class="button-primary button-content"/>
                 
             </label>
         </form>

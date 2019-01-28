@@ -181,17 +181,5 @@
 include "IncludedContent/footer.php";
 ?>
 
-<div class="NotificationAlert" id="notificationAlert1" style="display: none;">
-    <p>Diese Seite verwendet Cookies, um die Nutzererfahrung zu verbessern.
-        Mit der Nutzung dieser Seite stimmen Sie dem zu.</p>
-    <a href="privacy-policy.php#cookies">
-        <div class="formalButton">
-            Weitere Informationen
-            <img src="../sources/images/ic_arrow_next.svg"/>
-        </div>
-    </a>
-    <img src="../sources/images/ic_close.svg" onclick="CloseNotificationAlert()"/>
-</div>
-
 </body>
 </html>

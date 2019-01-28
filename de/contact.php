@@ -5,12 +5,13 @@
     <title>Kontakt</title>
     <meta name="description" content="Falls Sie Fragen, Anregungen oder ein anderes Anliegenh haben, können Sie diese hier äußern." />
     <?php include 'IncludedContent/head.php';?>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 
     <?php
     include 'IncludedContent/menu.php';
-    ?>    
+    ?>
 
     <div class="ContentBox-FormalText">
         
@@ -24,9 +25,10 @@
                 <input type="email" id="email" name="email" placeholder="Beispiel@domain.de" autocomplete="email" required />
                 
                 <label for="message">Nachricht:</label>
-                <textarea id="message" placeholder="Nachricht" name="message"></textarea>
-                
-                <input type="submit" value="Anfrage senden" class="button-primary button-content">
+                <textarea id="message" placeholder="Nachricht" name="message" required></textarea>
+
+                <div class="g-recaptcha" data-sitekey="6LdHx4wUAAAAAMY_RLaS6zaIhXhMc_F8_TPqp10u"></div>
+                <input type="submit" name="submit" value="Anfrage senden" class="button-primary button-content">
                 
             </label>
         </form>

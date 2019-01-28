@@ -38,9 +38,12 @@
                 <img src="/sources/images/facebook-logo-blue.png" />
             </a><br/>
             <a href="https://www.patreon.com/join/ericjkl">
-                <img src="/sources/images/Patreon_Navy.jpg" id="patreon-wordmark"/>
+                <img src="/sources/images/Patreon_Navy.jpg" class="wide"/>
+            </a>
+            <a href="https://500px.com/ericjkl">
+                <img src="/sources/images/500px_logo_light.png" class="wide"/>
             </a>
         </div>
 
-        <p>© Copyright 2018 Eric Jäkel</p>
+        <p>© Copyright 2019 Eric Jäkel</p>
     </footer>
