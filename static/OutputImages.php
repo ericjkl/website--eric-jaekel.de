@@ -146,8 +146,7 @@ class OutputImages extends General
                     $html_content = null;
             }
 
-            $exif_data_new[$exif_key] =
-                '<div class="exif-element ' . $exif_key . '">
+            $exif_data_new[$exif_key] = '<div class="exif-element ' . $exif_key . '">
                     ' . $html_content . '
                 </div>';
 
@@ -160,48 +159,84 @@ class OutputImages extends General
 
     function createCard($language, $image_path)
     {
-        if (file_exists($image_path)) {
-            $file_extension = strtolower(pathinfo($image_path, PATHINFO_EXTENSION)); //Dateiendung
-            $file_filename = pathinfo($image_path, PATHINFO_FILENAME); //Dateiname (ohne Endung)
-            $directory_path = pathinfo($image_path, PATHINFO_DIRNAME) . '/';
-            if ($file_extension == ("jpg" || "png" || "svg" || "gif")) {
-                // Thumbnail
-                $thumbnail_path = $directory_path . "thumbnails/thumbnail-" . $file_filename . "." . $file_extension;
-                file_exists($thumbnail_path) ? null : $thumbnail_path = $image_path;
+        if (!file_exists($image_path)) {
+            return false;
+        }
+        $file_extension = strtolower(pathinfo($image_path, PATHINFO_EXTENSION)); //Dateiendung
+        if ($file_extension != ("jpg" || "png" || "svg" || "gif")) {
+            return false;
+        }
+        $file_filename = pathinfo($image_path, PATHINFO_FILENAME); //Dateiname (ohne Endung)
+        $directory_path = pathinfo($image_path, PATHINFO_DIRNAME) . '/';
 
-                $exif_data = $this->outputExif($language, $image_path);
+        // Thumbnail
+        $thumbnail_path_standard_size = $directory_path . "thumbnails/thumbnail-" . $file_filename . "." . $file_extension;
+        if (file_exists($thumbnail_path_standard_size)) {
+            $thumbnail_path_standard_size_exists = true;
+        } else {
+            $thumbnail_path_standard_size_exists = false;
+            $thumbnail_path_standard_size = $image_path;
+        }
 
-                switch ($language) {
-                    case 'de':
-                        $image_error_message = 'Beim Anzeigen dieses Bildes ist leider ein Fehler aufgetreten. :((';
-                        break;
-                    case 'en':
-                        $image_error_message = 'Unfortunately there was an error while displaying this picture. :((';
-                        break;
-                    default:
-                        $image_error_message = null;
-                }
+        $thumbnail_path_small_size = $directory_path . "thumbnails/thumbnail-small-" . $file_filename . "." . $file_extension;
+        if (file_exists($thumbnail_path_small_size)) {
+            $thumbnail_path_small_size_exists = true;
+        } else if ($thumbnail_path_standard_size_exists) {
+            $thumbnail_path_small_size = $thumbnail_path_standard_size;
+            $thumbnail_path_small_size_exists = false;
+        } else {
+            $thumbnail_path_small_size = $image_path;
+            $thumbnail_path_small_size_exists = false;
+        }
 
-                echo '
+        $thumbnail_path_extra_small_size = $directory_path . "thumbnails/thumbnail-extra-small-" . $file_filename . "." . $file_extension;
+        if (file_exists($thumbnail_path_extra_small_size)) {
+            null;
+        } else if ($thumbnail_path_small_size_exists) {
+            $thumbnail_path_extra_small_size = $thumbnail_path_small_size;
+        } else if ($thumbnail_path_standard_size_exists) {
+            $thumbnail_path_extra_small_size = $thumbnail_path_standard_size;
+        } else {
+            $thumbnail_path_extra_small_size = $image_path;
+        }
+
+        $exif_data = $this->outputExif($language, $image_path);
+
+        switch ($language) {
+            case 'de':
+                $image_error_message = 'Beim Anzeigen dieses Bildes ist leider ein Fehler aufgetreten. :((';
+                break;
+            case 'en':
+                $image_error_message = 'Unfortunately there was an error while displaying this picture. :((';
+                break;
+            default:
+                $image_error_message = null;
+        }
+
+        echo '
                         <div class="masonry-item">
                             <a href="#full-image-' . $file_filename . '.' . $file_extension . '">
-                                <img class="masonry-img" src="' . $thumbnail_path . '" alt="'. $image_error_message .'"/>
+                                <picture class="lazyload">
+                                    <source srcset="../sources/images/preloader.svg" data-srcset="' . $thumbnail_path_extra_small_size . '" media="(max-width: 400px)"/>
+                                    <source srcset="../sources/images/preloader.svg" data-srcset="' . $thumbnail_path_small_size . '" media="(max-width: 1000px)"/>
+                                    <img src="../sources/images/preloader.svg" data-src="' . $thumbnail_path_standard_size . '" class="masonry-img" alt="' . $image_error_message . '"/>
+                                </picture>                                
                             </a>
                         </div>
                         <a href="javascript:history.back()" class="fullscreen-link" id="full-image-' . $file_filename . '.' . $file_extension . '">
                             <div class="fullscreen-container">
                                 <div class="fullscreen-img">
-                                    <img src="' . $directory_path . $file_filename . "." . $file_extension . '" alt="'. $image_error_message .'">
+                                    <picture class="lazyload" data-lazyload-listener="focus">
+                                        <source srcset="../sources/images/preloader.svg" data-srcset="' . $thumbnail_path_standard_size . '" media="(max-width: 400px)"/>
+                                        <source srcset="../sources/images/preloader.svg" data-srcset="' . $directory_path . $file_filename . "." . $file_extension . '" media="(max-width: 1000px)"/>
+                                        <img src="../sources/images/preloader.svg" data-src="' . $directory_path . $file_filename . "." . $file_extension . '" alt="' . $image_error_message . '">
+                                    </picture>
                                 </div>
                                 <div class="fullscreen-information">
                                     ' . $exif_data . '
                                 </div>
                             </div>
                         </a>';
-            }
-        } else {
-            return false;
-        }
     }
 
 

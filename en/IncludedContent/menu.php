@@ -1,5 +1,5 @@
 <div id="nav-icons">
-    <a href="javascript:void(0)" onclick="showHideElem('nav-menu', 'nav-icons')">
+    <a href="javascript:void(0)" onclick="showHideElem('nav-menu', 'nav-icons', 'close-menu')">
         <i class="material-icons">menu</i>
     </a>
     <a href="#top">
@@ -7,16 +7,14 @@
     </a>
 </div>
 
-
 <nav>
     <div class="menuContainer" id="nav-menu" data-display="flex">
-        <a href="javascript:void(0)" onclick="showHideElem('nav-menu', 'nav-icons')">
+        <a id="close-menu" href="javascript:void(0)" onclick="showHideElem('nav-menu', 'nav-icons', 'close-menu')"
+           style="display: none">
             <div id="menu-cancel-wrapper">
                 <i class="material-icons" id="menu-cancel">close</i>
             </div>
         </a>
-
-
 
         <a href="index.php">
             <div>
@@ -24,7 +22,6 @@
                     Home
                 </div>
             </div>
-
         </a>
         <a href="gallery.php">
             <div>
@@ -32,15 +29,13 @@
                     Photos
                 </div>
             </div>
-
         </a>
         <a href="software.php">
-            <di>
+            <div>
                 <div class="button-menu">
                     Software
                 </div>
-            </di>
-
+            </div>
         </a>
     </div>
 </nav>
@@ -48,7 +43,8 @@
 <div class="NotificationAlert" id="cookie-modal">
     <p>This website uses cookies, which are necessary due to web analysis, reach measurements, security regards
         and user experience optimization. You can change your cookie preferences in the settings of your browser.
-        You find more on that in the <a target="_blank" href="privacy-policy.php">privacy policy</a>.</p>
+        You find more on that in the <a target="_blank" href="privacy-policy.php">privacy policy</a>.
+    </p>
     <script>
         function closeCookieModal() {
             document.getElementById('cookie-modal').style.display = 'none';

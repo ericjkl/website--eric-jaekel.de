@@ -1,2 +1,6 @@
-- wenn ein anderes bild als das aktuell geöffnete geöffnet wird, resetten sich die icons und blur-filter des danach geschlossenen bildes (das war vorher auf 100%, 
-jetzt aber wieder normal, weil anderes bild angeklickt wurde) nicht (geöffnet = flex-basis: 100%)
+- nev-menu bug 03.02.19:
+	wenn showHideElem() aufgerufen wird, überschreibt die fn mit inline display:block; die medienabfragen vom css
+	folge: wenn showHideElem() aufgerufen wird und sich dann der viewport ändert, haben medienabfragen keine wirkung mehr
+- bilder laden / scroll event entfernen 03.02.19:
+	lazyElements.length stimmt nicht mit executionCounter überein (zb. in gallery 2 elemente mehr als executionCounter gezählt hat)
+	folge: die elemente die zu viel sind werden nicht mehr geladen, weil der listener vorher entfernt wurde

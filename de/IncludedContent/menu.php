@@ -1,5 +1,5 @@
 <div id="nav-icons">
-    <a onclick="open_close_menu()">
+    <a href="javascript:void(0)" onclick="showHideElem('nav-menu', 'nav-icons', 'close-menu')">
         <i class="material-icons">menu</i>
     </a>
     <a href="#top">
@@ -9,18 +9,12 @@
 
 <nav>
     <div class="menuContainer" id="nav-menu">
-        <div>
-            <div>
-                <a onclick="open_close_menu()">
-                    <div id="menu-cancel-wrapper">
-
-                        <i class="material-icons" id="menu-cancel">close</i>
-
-                    </div>
-                </a>
+        <a id="close-menu" href="javascript:void(0)" onclick="showHideElem('nav-menu', 'nav-icons', 'close-menu')"
+           style="display: none">
+            <div id="menu-cancel-wrapper">
+                <i class="material-icons" id="menu-cancel">close</i>
             </div>
-        </div>
-
+        </a>
 
         <a href="index.php">
             <div>
@@ -49,19 +43,17 @@
 <div class="NotificationAlert" id="cookie-modal">
     <p>Diese Webseite nutzt Cookies, welche aus Gründen der Webanalyse, Reichweitenmessung, Sicherheit und Optimierung
         der Nutzererfahrung erforderlich sind. Ihre Cookie-Präferenzen können Sie in den Einstellungen Ihres Browsers
-        ändern. Weitere Informationen dazu finden Sie auch in der <a target="_blank" href="privacy-policy.php">Datenschutzerklärung</a>.</p>
+        ändern. Weitere Informationen dazu finden Sie auch in der <a target="_blank" href="privacy-policy.php">Datenschutzerklärung</a>.
+    </p>
     <script>
         function closeCookieModal() {
             document.getElementById('cookie-modal').style.display = 'none';
             sessionStorage.setItem('cookieConsent', 'true');
         }
     </script>
-    <div>
-        <a href="javascript:void(0)" onclick="closeCookieModal()">
-            <div class="button-primary button-content button-no-icon">OK!</div>
-        </a>
-    </div>
-
+    <a href="javascript:void(0)" onclick="closeCookieModal()">
+        <div class="button-primary button-content button-no-icon">OK!</div>
+    </a>
 </div>
 
 <script>

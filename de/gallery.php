@@ -25,18 +25,16 @@ $output_images = new OutputImages();
         <a href="javascript:void(0)" onclick="showHideElem('imageContainer1', 'ic_expand_more_1', 'ic_expand_less_1')">
             <div class="imageContainerHead">
                 <h3>Highlights</h3>
-                <i class="material-icons" id="ic_expand_less_1" >expand_less</i>
-                <i class="material-icons" id="ic_expand_more_1"
-                   style="display: none;">expand_more</i>
+                <i class="material-icons" id="ic_expand_less_1">expand_less</i>
+                <i class="material-icons" id="ic_expand_more_1" style="display: none;">expand_more</i>
             </div>
         </a>
 
 
-        <div id="imageContainer1">
+        <divid="imageContainer1">
             <ul class="custom-masonry-image-list">
                 <?php
-                $output_images->outputCardsAuto('de',
-                    '../sources/images/landscapes/009landscapes.jpg',
+                $output_images->outputCardsAuto('de', '../sources/images/landscapes/009landscapes.jpg',
                     '../sources/images/macro/001macro.jpg', '../sources/images/macro/002macro.jpg',
                     '../sources/images/other/003other.jpg', '../sources/images/landscapes/DSC03543-10.jpg',
                     '../sources/images/landscapes/DSC06286.jpg',
@@ -65,12 +63,12 @@ $output_images = new OutputImages();
         </a>
 
 
-        <div class="cards-container-nobootstrap" id="imageContainer2" style="display: none;">
+        <div id="imageContainer2" style="display: none;">
 
             <h4>Landschaften</h4>
             <ul class="custom-masonry-image-list">
                 <?php
-                $output_images->outputCardsAuto('de',"../sources/images/landscapes/");
+                $output_images->outputCardsAuto('de', "../sources/images/landscapes/");
                 ?>
             </ul>
 
@@ -78,21 +76,21 @@ $output_images = new OutputImages();
             <h4>Makro</h4>
             <ul class="custom-masonry-image-list">
                 <?php
-                $output_images->outputCardsAuto('de',"../sources/images/macro/");
+                $output_images->outputCardsAuto('de', "../sources/images/macro/");
                 ?>
             </ul>
 
             <h4>Anderes</h4>
             <ul class="custom-masonry-image-list">
                 <?php
-                $output_images->outputCardsAuto('de',"../sources/images/other/");
+                $output_images->outputCardsAuto('de', "../sources/images/other/");
                 ?>
             </ul>
 
             <h4>Tiere</h4>
             <ul class="custom-masonry-image-list">
                 <?php
-                $output_images->outputCardsAuto('de',"../sources/images/animals/");
+                $output_images->outputCardsAuto('de', "../sources/images/animals/");
                 ?>
             </ul>
 

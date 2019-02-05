@@ -48,5 +48,5 @@
         </a>
     </div>
 
-    <p>© Copyright 2019 Eric Jäkel</p>
+    <p>© Copyright <?php echo date("Y"); ?> Eric Jäkel</p>
 </footer>

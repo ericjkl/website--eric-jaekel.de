@@ -33,7 +33,7 @@
     <?php include "IncludedContent/menu.php"; ?>
 
     <section>
-        <img src="../sources/images/landscapes/DSC07282.jpg" id="firstimgIndex"
+        <img class="lazyload" src="../sources/images/preloader.svg" data-src="../sources/images/landscapes/DSC07282.jpg" id="firstimgIndex"
              alt="Dieses Bild kann leider nicht angezeigt werden. :("/>
         <div>
             <h2>Hallo!</h2>
@@ -48,7 +48,7 @@
 
 
     <section>
-        <img src="../sources/images/landscapes/009landscapes.jpg"
+        <img class="lazyload" src="../sources/images/preloader.svg" data-src="../sources/images/landscapes/009landscapes.jpg"
              alt="Landschaft / Dieses Bild kann leider nicht angezeigt werden. :("/>
         <div>
             <h2>Landschaften</h2>
@@ -65,7 +65,7 @@
     </section>
 
     <section>
-        <img src="../sources/images/macro/001macro.jpg"
+        <img class="lazyload" src="../sources/images/preloader.svg" data-src="../sources/images/macro/001macro.jpg"
              alt="Blüte / Dieses Bild kann leider nicht angezeigt werden. :("/>
         <div>
             <h2>Makro</h2>
@@ -80,7 +80,7 @@
     </section>
 
     <section>
-        <img src="../sources/images/landscapes/DSC07654.jpg"
+        <img class="lazyload" src="../sources/images/preloader.svg" data-src="../sources/images/landscapes/DSC07654.jpg"
              alt="Gletscherwanderung / Dieses Bild kann leider nicht angezeigt werden. :("/>
         <div>
             <h2>Sport, Action &amp; Events</h2>
@@ -92,7 +92,7 @@
     </section>
 
     <section>
-        <img src="../sources/images/other/003other.jpg"
+        <img class="lazyload" src="../sources/images/preloader.svg" data-src="../sources/images/other/003other.jpg"
              alt="Sternenhimmel / Dieses Bild kann leider nicht angezeigt werden. :("/>
         <div>
             <h2>Alles Andere</h2>

@@ -32,18 +32,18 @@
         <div>
             <h2>Connect</h2>
             <a href="https://www.instagram.com/eric.jkl/">
-                <img src="/sources/images/instagram-logo.png" />
+                <img class="lazyload" src="../sources/images/preloader.svg" data-src="/sources/images/instagram-logo.png" />
             </a>
             <a href="https://www.facebook.com/profile.php?id=100009464524622">
-                <img src="/sources/images/facebook-logo-blue.png" />
+                <img class="lazyload" src="../sources/images/preloader.svg" data-src="/sources/images/facebook-logo-blue.png" />
             </a><br/>
             <a href="https://www.patreon.com/join/ericjkl">
-                <img src="/sources/images/Patreon_Navy.jpg" class="wide"/>
+                <img class="lazyload" src="../sources/images/preloader.svg" data-src="/sources/images/Patreon_Navy.jpg" class="wide"/>
             </a>
             <a href="https://500px.com/ericjkl">
-                <img src="/sources/images/500px_logo_light.png" class="wide"/>
+                <img class="lazyload" src="../sources/images/preloader.svg" data-src="/sources/images/500px_logo_light.png" class="wide"/>
             </a>
         </div>
 
-        <p>© Copyright 2019 Eric Jäkel</p>
+        <p>© Copyright <?php echo date("Y"); ?> Eric Jäkel</p>
     </footer>

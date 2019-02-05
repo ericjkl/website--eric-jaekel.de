@@ -31,19 +31,10 @@ a:hover:not(.allow-decoration) {
     text-decoration: none;
 }
 
-a[target="_blank"] {
+a[target="_blank"],
+a.link-prm{
     color: #0068ff;
     text-decoration: underline !important;
-}
-
-a.link-prm {
-    color: #0068ff;
-    text-decoration: underline !important;
-}
-
-nav a {
-    width: 100%;
-    height: 100%;
 }
 
 h1,
@@ -266,64 +257,6 @@ i:hover {
     flex: 1 1 auto;
 }
 
-.NotificationAlert .formalButton {
-    margin: 0;
-}
-
-.NotificationAlert > img,
-.NotificationCover > div > div > img {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 50px;
-}
-
-.NotificationAlert > img:hover,
-.NotificationCover img:hover {
-    cursor: pointer;
-}
-
-.NotificationCover {
-    position: fixed;
-    z-index: 1001;
-    height: 100%;
-    width: 100%;
-}
-
-.NotificationCover h2,
-.NotificationCover p {
-    margin: 0;
-}
-
-.NotificationCover > div {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.NotificationCover > div > div:first-child {
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: 0.7;
-}
-
-.NotificationCover > div > div:last-child {
-    background-color: #fff;
-    position: absolute;
-    padding: 20px 75px 35px 75px;
-    width: 50%;
-    top: 25%;
-    left: 25%;
-}
-
-/*.NotificationCover > div:first-child {
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: 0.5;
-}*/
-
 /*#endregion*/
 
 /*#region Menu*/
@@ -350,7 +283,6 @@ i:hover {
     top: 10px;
     right: 10px;
     height: 12vw;
-    display: none;
 }
 
 nav,
@@ -369,17 +301,23 @@ nav {
 .menuContainer {
     display: flex;
     flex-flow: row nowrap;
-    font-size: 30px;
-    box-shadow: 0px 10px 10px -10px #000;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 7px;
+    box-shadow: 0px 5px 30px -10px #000;
     z-index: 100;
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
-.menuContainer > a > div {
-    padding: 0 0 7px 0;
+.button-menu {
+    display: inline-block;
+    margin: 15px 10px 15px 10px;
+    font-size: 28px;
+    border-bottom: 3px solid #000;
+    transition: all ease-out 0.3s;
 }
 
+.button-menu:hover,
 a:hover .button-menu {
     margin: 15px 0 15px 0;
     padding: 0 10px 0 10px;
@@ -493,21 +431,6 @@ div.parallax-container p {
 .download-button i {
     color: inherit;
     font-size: 140%;
-}
-
-.button-menu {
-    display: inline-block;
-    margin: 15px 10px 15px 10px;
-    font-size: 28px;
-    border-bottom: 3px solid #000;
-    transition: all ease-out 0.3s;
-}
-
-.button-menu:hover,
-a:hover .button-menu {
-    margin: 15px 0 15px 0;
-    padding: 0 10px 0 10px;
-    border-bottom: 3px solid #eb0028;
 }
 
 .button-content {
