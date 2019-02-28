@@ -14,7 +14,7 @@ $output_images = new OutputImages();
 ?>
 
 
-<div class="parallax-container" id="parallax-gallery">
+<div class="parallax-container lazyload lazyload-background" id="parallax-gallery" data-background-image="/sources/images/THUMBheader_pano.jpg">
     <h1>Fotos</h1>
 </div>
 
@@ -31,7 +31,7 @@ $output_images = new OutputImages();
         </a>
 
 
-        <divid="imageContainer1">
+        <div id="imageContainer1">
             <ul class="custom-masonry-image-list">
                 <?php
                 $output_images->outputCardsAuto('de', '../sources/images/landscapes/009landscapes.jpg',

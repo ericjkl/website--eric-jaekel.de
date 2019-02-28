@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 
-<html lang="de-de" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>The best photos on the planet!</title>
     <meta name="description" content="All pictures from Eric Jäkel (the best ones in the world) are to be found here."/>
@@ -14,8 +14,8 @@ $output_images = new OutputImages();
 ?>
 
 
-<div class="parallax-container" id="parallax-gallery">
-    <h1>Fotos</h1>
+<div class="parallax-container lazyload lazyload-background" id="parallax-gallery" data-background-image="/sources/images/THUMBheader_pano.jpg">
+    <h1>Photos</h1>
 </div>
 
 <div>

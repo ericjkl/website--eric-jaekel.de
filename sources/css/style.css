@@ -180,8 +180,14 @@ i:hover {
     transform: translate(-50%,-50%);
 }
 
-.fullscreen-information {
+.fullscreen-information * {
+    color: #fff;
+}
 
+.fullscreen-information {
+    position: absolute;
+    top: 100%;
+    margin-bottom: 30px;
 }
 
 .JesterBox div {
@@ -328,21 +334,25 @@ a:hover .button-menu {
 
 /*#region parallax*/
 
+.lazyload-background {
+    background-image: none;
+    background-color: grey;
+}
+
 #parallax-index {
-    background-image: url("../images/landscapes/DSC07274-HDR.jpg");
     background-position: center;
 }
 
-#parallax-gallery {
-    background-image: url("../images/THUMBheader_pano.jpg");
-}
+/*#parallax-gallery {*/
+    /*background-image: url("/sources/images/THUMBheader_pano.jpg");*/
+/*}*/
 
 #parallax-blog {
-    background-image: url("../images/other/001other.jpg");
+    background-image: url("/sources/images/other/001other.jpg");
 }
 
 #parallax-software {
-    background-image: url("../images/other/DSC08255.jpg");
+    background-image: url("/sources/images/other/DSC08255.jpg");
 }
 
 .parallax-container {

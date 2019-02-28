@@ -11,29 +11,19 @@
 </head>
 <body>
 
-<div class="parallax-container" id="parallax-index">
+<div class="parallax-container lazyload lazyload-background"
+     data-background-image="/sources/images/landscapes/DSC07274-HDR.jpg">
     <h1>Eric Jäkel</h1>
     <p>Fotograf. Webdesigner. Software-Entwickler.</p>
 </div>
 
 <div class="ContentBox">
 
-    <div class="section-fullscreen" id="bg-1" style="display: none">
-        <div class="section-fullscreen-text">
-            <h2>Entdecken</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        </div>
-    </div>
-
     <?php include "IncludedContent/menu.php"; ?>
 
     <section>
-        <img class="lazyload" src="../sources/images/preloader.svg" data-src="../sources/images/landscapes/DSC07282.jpg" id="firstimgIndex"
+        <img class="lazyload" src="../sources/images/preloader.svg" data-src="/sources/images/landscapes/DSC07282.jpg"
+             id="firstimgIndex"
              alt="Dieses Bild kann leider nicht angezeigt werden. :("/>
         <div>
             <h2>Hallo!</h2>
@@ -48,7 +38,8 @@
 
 
     <section>
-        <img class="lazyload" src="../sources/images/preloader.svg" data-src="../sources/images/landscapes/009landscapes.jpg"
+        <img class="lazyload" src="../sources/images/preloader.svg"
+             data-src="../sources/images/landscapes/009landscapes.jpg"
              alt="Landschaft / Dieses Bild kann leider nicht angezeigt werden. :("/>
         <div>
             <h2>Landschaften</h2>
@@ -123,7 +114,8 @@
 
         <div class="cards-container-nobootstrap">
             <div class="card shadow-sm bg-light card-nobootstrap">
-                <img class="card-img-top mx-auto card-icon-nobootstrap" src="/sources/images/icon-nomoney.svg"
+                <img class="card-img-top mx-auto card-icon-nobootstrap lazyload"
+                     data-src="/sources/images/icon-nomoney.svg" src="/sources/images/preloader.svg"
                      alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Alles völlig kostenlos</h4>
@@ -139,7 +131,8 @@
             </div>
 
             <div class="card shadow-sm bg-light card-nobootstrap">
-                <img class="card-img-top mx-auto card-icon-nobootstrap" src="/sources/images/icon-flexibility.svg"
+                <img class="card-img-top mx-auto card-icon-nobootstrap lazyload"
+                     data-src="/sources/images/icon-flexibility.svg" src="/sources/images/preloader.svg"
                      alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Hohe Flexibilität</h4>

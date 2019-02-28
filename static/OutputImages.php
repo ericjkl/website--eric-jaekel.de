@@ -9,7 +9,6 @@ include 'General.php';
 
 class OutputImages extends General
 {
-
     function outputExif($language, $path)
     {
         $exif_data = exif_read_data($path);
@@ -44,9 +43,11 @@ class OutputImages extends General
             }
         }
 
-        foreach (array_keys($exif_data_new) as $exif_key) {
-            switch ($language) {
-                case 'de':
+        $html_tags = array();
+
+        switch ($language) {
+            case 'de':
+                foreach (array_keys($exif_data_new) as $exif_key) {
                     switch ($exif_key) {
                         case 'DateTimeOriginal':
                             $date = date_create_from_format('Y:m:d H:i:s', $exif_data_new[$exif_key]);
@@ -93,8 +94,13 @@ class OutputImages extends General
                             $html_content = $exif_data_new[$exif_key];
                             break;
                     }
-                    break;
-                case 'en':
+                    $html_tags[] = '<div class="exif-element ' . $exif_key . '">
+                        ' . $html_content . '
+                    </div>';
+                }
+                break;
+            case 'en':
+                foreach (array_keys($exif_data_new) as $exif_key) {
                     switch ($exif_key) {
                         case 'DateTimeOriginal':
                             $date = date_create_from_format('Y:m:d H:i:s', $exif_data_new[$exif_key]);
@@ -141,19 +147,19 @@ class OutputImages extends General
                             $html_content = $exif_data_new[$exif_key];
                             break;
                     }
-                    break;
-                default:
+                    $html_tags[] = '<div class="exif-element ' . $exif_key . '">
+                        ' . $html_content . '
+                    </div>';
+                }
+                break;
+            default:
+                foreach (array_keys($exif_data_new) as $exif_key) {
                     $html_content = null;
-            }
-
-            $exif_data_new[$exif_key] = '<div class="exif-element ' . $exif_key . '">
-                    ' . $html_content . '
-                </div>';
-
+                }
+                break;
         }
-        foreach ($exif_data_new as $exif_html_element) {
-            return utf8_encode($exif_html_element);
-        }
+
+        return $html_tags;
     }
 
 
@@ -201,6 +207,7 @@ class OutputImages extends General
         }
 
         $exif_data = $this->outputExif($language, $image_path);
+        $relative_height = $this->getImageDimensions($image_path)['relative_height'];
 
         switch ($language) {
             case 'de':
@@ -213,13 +220,15 @@ class OutputImages extends General
                 $image_error_message = null;
         }
 
-        echo '
+        echo(utf8_encode('
                         <div class="masonry-item">
                             <a href="#full-image-' . $file_filename . '.' . $file_extension . '">
                                 <picture class="lazyload">
                                     <source srcset="../sources/images/preloader.svg" data-srcset="' . $thumbnail_path_extra_small_size . '" media="(max-width: 400px)"/>
                                     <source srcset="../sources/images/preloader.svg" data-srcset="' . $thumbnail_path_small_size . '" media="(max-width: 1000px)"/>
-                                    <img src="../sources/images/preloader.svg" data-src="' . $thumbnail_path_standard_size . '" class="masonry-img" alt="' . $image_error_message . '"/>
+                                    <img src="../sources/images/preloader.svg" data-src="' . $thumbnail_path_standard_size . '" 
+                                    class="masonry-img" alt="' . $image_error_message . '"
+                                    data-relative-height="' . $relative_height . '"/>
                                 </picture>                                
                             </a>
                         </div>
@@ -233,10 +242,10 @@ class OutputImages extends General
                                     </picture>
                                 </div>
                                 <div class="fullscreen-information">
-                                    ' . $exif_data . '
+                                    ' . implode($exif_data) . '
                                 </div>
                             </div>
-                        </a>';
+                        </a>'));
     }
 
 
