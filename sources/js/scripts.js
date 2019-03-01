@@ -1,27 +1,50 @@
 const lazyElements = document.querySelectorAll('.lazyload');
 let lazyElementsOnFocus = [];
 let lazyElementsOnViewable = [];
-function setRelativeHeight(imgElement) {
-    if (!imgElement) return false;
-    const newHeight = imgElement.getAttribute("data-relative-height") * imgElement.offsetWidth;
-    if (typeof newHeight === "number" && newHeight > 0) {
-        imgElement.setAttribute("height", newHeight);
+let relHeightElements = [];
+let isScrolling = false;
+
+window.addEventListener("load", () => {
+    for (let element of lazyElements) {
+        if (element.getAttribute("data-lazyload-listener") === "focus") {
+            lazyElementsOnFocus.push(element);
+            element.parentElement.parentElement.parentElement.addEventListener("focus", function () {
+                changeSrc(element);
+            });
+        } else {
+            lazyElementsOnViewable.push(element);
+            relHeightElements.push(element);
+        }
     }
-}
-for (let element of lazyElements) {
-    if (element.getAttribute("data-lazyload-listener") === "focus") {
-        lazyElementsOnFocus.push(element);
-        element.parentElement.parentElement.parentElement.addEventListener("focus", function () {
-            changeSrc(element);
-        });
-    } else {
-        lazyElementsOnViewable.push(element);
-        if (element.tagName === "IMG") {
-            setRelativeHeight(element);
-        } else if (element.tagName === "PICTURE") {
-            for (let elementChild of element.children) {
+
+    window.addEventListener("scroll", scrollListener);
+    loadImages();
+});
+
+
+
+function setRelativeHeights() {
+    let elementChangeHeight = undefined;
+    let newHeight = undefined;
+    for (i = 0; i < relHeightElements.length - 1; i++) {
+        let tagSupported = true;
+        if (relHeightElements[i].tagName === "IMG") {
+            elementChangeHeight = relHeightElements[i];
+        } else if (relHeightElements[i].tagName === "PICTURE") {
+            for (let elementChild of relHeightElements[i].children) {
                 if (elementChild.tagName === "IMG") {
-                    setRelativeHeight(elementChild);
+                    elementChangeHeight = elementChild;
+                }
+            }
+        } else {
+            tagSupported = false;
+        }
+        if (tagSupported) {
+            if (typeof elementChangeHeight === "object") {
+                newHeight = elementChangeHeight.getAttribute("data-relative-height") * relHeightElements[i].offsetWidth;
+                if (typeof newHeight === "number" && newHeight > 0) {
+                    elementChangeHeight.setAttribute("height", newHeight);
+                    relHeightElements.splice(i, 1);
                 }
             }
         }
@@ -56,7 +79,9 @@ function changeSrc(element) {
         } else {
             const dataSrc = element.getAttribute("data-background-image");
             if (typeof dataSrc === "string" && dataSrc.length > 0) {
-                element.style.backgroundImage = `url("${dataSrc}")`;
+                element.style.backgroundImage =
+                    `url("${dataSrc}")`
+                ;
                 return true;
             }
         }
@@ -65,6 +90,7 @@ function changeSrc(element) {
 }
 
 function loadImages() {
+    setRelativeHeights();
     if (lazyElementsOnViewable.length < 1) {
         window.removeEventListener("scroll", scrollListener);
         console.log('execution terminated');
@@ -77,19 +103,15 @@ function loadImages() {
         if (changed) {
             lazyElementsOnViewable.splice(i, 1);
             hasLoadedSomething = true;
-            console.log(hasLoadedSomething);
         }
         if (i === lazyElementsOnViewable.length - 1 && hasLoadedSomething) {
             setTimeout(() => {
                 loadImages();
-                console.log('loading again');
             }, 2000);
-            console.log('timeout set');
         }
     }
 }
 
-let isScrolling = false;
 function scrollListener() {
     if (isScrolling) return;
     isScrolling = true;
@@ -97,111 +119,14 @@ function scrollListener() {
     setTimeout(function () {
         isScrolling = false;
     }, 100);
-    console.log('scrolling');
 }
 
-window.addEventListener("scroll", scrollListener);
-document.addEventListener("DOMContentLoaded", () => {loadImages()});
-
-// let executionCounter = 0;
-// let focusCounter = 0;
-// const lazyElements = document.querySelectorAll('.lazyload');
-// let lazyElementsOnFocus = [];
-// let lazyElementsOnViewable = [];
-// for (let element of lazyElements) {
-//     if (element.getAttribute("data-lazyload-listener") === "focus") {
-//         lazyElementsOnFocus.push(element);
-//         focusCounter++;
-//     } else {
-//         lazyElementsOnViewable.push(element);
-//     }
-// }
-//
-// function loadImages() {
-//
-//     function changeSrc(element) {
-//         if (element.offsetParent === null) return false;
-//         if (element.getBoundingClientRect().top - window.innerHeight > 10) return false;
-//         console.log(element.children);
-//         if (element.tagName === "PICTURE") {
-//             for (let elementChild of element.children) {
-//                 if (elementChild.tagName === "IMG") {
-//                     elementChild.setAttribute("src", elementChild.getAttribute("data-src"));
-//                 } else if (elementChild.tagName === "SOURCE") {
-//                     elementChild.setAttribute("srcset", elementChild.getAttribute("data-srcset"));
-//                 }
-//                 console.log(lazyElements);
-//             }
-//             if (element.getAttribute("data-lazyload-listener") !== "focus") {
-//                 executionCounter++;
-//             }
-//         } else if (element.tagName === "IMG") {
-//             const dataSrc = element.getAttribute("data-src");
-//             const src = element.getAttribute("src");
-//             if (dataSrc !== src) {
-//                 element.setAttribute("src", dataSrc);
-//                 if (element.getAttribute("data-lazyload-listener") !== "focus") {
-//                     executionCounter++;
-//                 }
-//             }
-//         } else {
-//             const dataSrc = element.getAttribute("data-background-image");
-//             if (typeof dataSrc === "string" && dataSrc.length > 0) {
-//                 element.style.backgroundImage = `url("${dataSrc}")`;
-//                 if (element.getAttribute("data-lazyload-listener") !== "focus") {
-//                     executionCounter++;
-//                 }
-//             }
-//         }
-//     }
-//
-//     if (executionCounter >= lazyElements.length - focusCounter) {
-//         window.removeEventListener("load", loadImages);
-//         window.removeEventListener("scroll", scrollListener);
-//         console.log('execution terminated');
-//         return;
-//     }
-//
-//     for (let element of lazyElements) {
-//         const lazyListener = element.getAttribute("data-lazyload-listener");
-//         if (lazyListener === "focus") {
-//             element.parentElement.parentElement.parentElement.addEventListener("focus", function () {
-//                 changeSrc(element);
-//             });
-//         } else {
-//             changeSrc(element);
-//         }
-//     }
-// }
-//
-// let isExecuting = false;
-// let isScrolling = false;
-//
-// function scrollListener() {
-//     if (isExecuting) return;
-//     isExecuting = true;
-//     loadImages();
-//     setTimeout(function () {
-//         isExecuting = false;
-//     }, 400);
-//
-//     //nach 4s nochmal ausführen, um "nachgerückte" Bilder zu laden
-//     if (isScrolling) {
-//         clearTimeout(loadAgain);
-//     }
-//     isScrolling = true;
-//     loadAgain = setTimeout(function () {
-//         loadImages();
-//         // console.log('loaded again');
-//     }, 4000);
-// }
-//
-// window.addEventListener("scroll", scrollListener);
-// window.addEventListener("load", loadImages);
 
 function showHideElem(elemId, iconIdClosed, iconIdOpen) {
     if (typeof elemId !== "string") {
-        console.log(`error: elemId must be string. ${typeof elemId} given.`);
+        console.log(
+            `error: elemId must be string. ${typeof elemId} given.`
+        );
         return false;
     }
     const elem = document.getElementById(elemId);
