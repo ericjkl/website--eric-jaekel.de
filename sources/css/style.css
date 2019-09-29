@@ -161,6 +161,10 @@ i:hover {
     visibility: hidden;
 }
 
+.fullscreen-link:hover {
+    cursor: default;
+}
+
 .fullscreen-link:target {
     visibility: visible;
 }
@@ -190,58 +194,62 @@ i:hover {
     margin-bottom: 30px;
 }
 
-.JesterBox div {
-    visibility: hidden;
-    position: fixed;
-    top: 5%;
-    right: 5%;
-    bottom: 5%;
-    left: 5%;
-    z-index: 750000;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.fullscreen-icon * {
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
 }
 
-.JesterBox div:before {
-    content: "";
+.fullscreen-icon {
     position: fixed;
+}
+
+.fullscreen-icon:hover {
+    cursor: pointer;
+}
+
+.fullscreen-icon-prev, .fullscreen-icon-next {
     top: 0;
-    right: 0;
-    bottom: 0;
+    width: 20vw;
+    height: 100vh;
+}
+
+.fullscreen-icon-prev, .fullscreen-icon-prev * {
     left: 0;
-    z-index: 74;
-
-    background-color: rgba(0, 0, 0, 0);
-    transition: all 0.5s ease-out;
 }
 
-.JesterBox div img {
+.fullscreen-icon-next, .fullscreen-icon-next * {
+    right: 0;
+}
+
+.fullscreen-icon-prev *, .fullscreen-icon-next * {
+    font-size: 90px;
+    top: calc(50% - 90px / 2);
+}
+
+.fullscreen-icon-close {
+    right: 10px;
+    top: 10px;
+    padding: 3px 3px 0 3px;
+    border: 3px solid #fff;
+}
+
+.fullscreen-icon-close * {
     position: relative;
-    z-index: 77;
-    max-width: 100%;
-    max-height: 100%;
-
-    margin-left: -9999px;
-    opacity: 0;
-    transition-property: all, opacity;
-    transition-duration: 0.5s, 0.2s;
-    transition-timing-function: ease-in-out, ease-out;
 }
 
-.JesterBox div:target {
-    visibility: visible;
+.fullscreen-icon-scroll-bottom {
+    position: absolute;
+    top: calc(100% - 70px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.JesterBox div:target:before {
-    background-color: rgba(0, 0, 0, 0.7);
+.fullscreen-icon-scroll-bottom * {
+    font-size: 45px;
 }
 
-.JesterBox div:target img {
-    margin-left: 0px;
-    opacity: 1;
-}
 /* #endregion */
 
 /*#region Notification*/

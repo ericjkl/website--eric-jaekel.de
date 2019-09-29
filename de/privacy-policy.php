@@ -3,7 +3,7 @@
 <html lang="de-de" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Datenschutz</title>
-    <meta name="description" content="Alles, was Sie rund um das Thema Datenschutz wissen müssen."/>
+    <meta name="description" content="Datenschutzerklärung"/>
     <?php include 'IncludedContent/head.php'; ?>
 </head>
 <body>

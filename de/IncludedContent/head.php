@@ -11,7 +11,7 @@
 <meta charset="utf-8" />
 <meta name="author" content="Eric Jäkel" />
 <meta name="keywords" content="leipzig, foto, fotografie, photography, fotograf" />
-<meta name="vieport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 <meta name="theme-color" content="#0f0f0f" />
 <link rel="icon" href="/sources/images/logo_ej.png" type="image/vnd.microsoft.icon">
 <link rel="icon" href="/sources/images/logo_ej.svg" type="image/vnd.microsoft.icon">

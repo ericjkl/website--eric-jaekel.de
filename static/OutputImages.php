@@ -232,7 +232,7 @@ class OutputImages extends General
                                 </picture>                                
                             </a>
                         </div>
-                        <a href="javascript:history.back()" class="fullscreen-link" id="full-image-' . $file_filename . '.' . $file_extension . '">
+                        <a href="javascript:null" class="fullscreen-link" id="full-image-' . $file_filename . '.' . $file_extension . '">
                             <div class="fullscreen-container">
                                 <div class="fullscreen-img">
                                     <picture class="lazyload" data-lazyload-listener="focus">
@@ -241,6 +241,37 @@ class OutputImages extends General
                                         <img src="../sources/images/preloader.svg" data-src="' . $directory_path . $file_filename . "." . $file_extension . '" alt="' . $image_error_message . '">
                                     </picture>
                                 </div>
+                                <button onclick="showPreviousImage(this.parentElement.parentElement)">
+                                    <div class="fullscreen-icon fullscreen-icon-prev">
+                                        <i class="material-icons">
+                                        navigate_before
+                                        </i>
+                                    </div>
+                                </button>
+                                
+                                <button onclick="showNextImage(this.parentElement.parentElement)">
+                                    <div class="fullscreen-icon fullscreen-icon-next">
+                                        <i class="material-icons">
+                                        navigate_next
+                                        </i>
+                                    </div>
+                                </button>
+                                
+                                <button onclick="closeFullscreen()">
+                                    <div class="fullscreen-icon fullscreen-icon-close">
+                                        <i class="material-icons">
+                                        close
+                                        </i>
+                                    </div>
+                                </button>
+                                
+                                <button onclick="this.parentElement.scrollTo(0,this.parentElement.scrollHeight)">
+                                    <div class="fullscreen-icon fullscreen-icon-scroll-bottom">
+                                        <i class="material-icons">
+                                        arrow_drop_down_circle
+                                        </i>
+                                    </div>
+                                </button>
                                 <div class="fullscreen-information">
                                     ' . implode($exif_data) . '
                                 </div>

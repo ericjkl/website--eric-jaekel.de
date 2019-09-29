@@ -59,9 +59,32 @@
                     </a>
                 </div>
             </div>
-            
-            
-        </section>    
+        </section>
+
+        <section class="text-with-icon" id="partyone">
+            <div class="section-img-wrapper">
+                <img src="../sources/images/partyone-logo.png"
+                     alt="PartyOne-Logo / Dieses Bild kann leider nicht angezeigt werden."/>
+            </div>
+            <div class="section-text">
+                <h2>PartyOne</h2>
+                <p>THE app for your party: plan your events, create lists and share everything with your friends!
+                    With PartyOne you can't only organize your next celebration super-easy, but also invite guests,
+                    distribute tasks and so much more. Get it now!</p>
+                <div class="alert alert-warning">
+                    Note: The app is still in beta phase at the moment, which means that only some limited features
+                    are available.
+                </div>
+                <div class="section-download-box">
+                    <a href="../sources/downloads/PartyOne-04aa68a3446849d980d8a72605c83a72-signed.apk" download>
+                        <div class="download-button">
+                            <i class="material-icons center-vertical-line">save_alt</i>
+                            Download Android (.apk)
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
 
         
     </div>

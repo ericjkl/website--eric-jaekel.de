@@ -1,9 +1,10 @@
 ﻿<!DOCTYPE html>
 
-<html lang="de-de" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Impressum</title>
     <meta name="description" content="Im Impressum finden Sie meine Anschrift und alles Wichtige rund um das Urheberrecht" />
+    <link rel="canonical" href="http://www.eric-jaekel.de/de/imprint.php">
     <?php include 'IncludedContent/head.php';?>
 </head>
 <body>

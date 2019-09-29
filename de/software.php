@@ -58,11 +58,35 @@
                     </a>
                 </div>
             </div>
-            
-            
-        </section>    
+        </section>
 
-        
+        <section class="text-with-icon" id="partyone">
+            <div class="section-img-wrapper">
+                <img src="../sources/images/partyone-logo.png"
+                     alt="Toolify-Logo / Dieses Bild kann leider nicht angezeigt werden."/>
+            </div>
+            <div class="section-text">
+                <h2>PartyOne</h2>
+                <p>DIE App für Deine Party: Plane Events, erstelle Listen, teile Alles mit Deinen Freunden!
+                    Mit PartyOne kannst du nicht nur deine nächste Feier super-einfach organisieren, sondern auch Gäste
+                    einladen,
+                    Aufgaben verteilen und noch vieles mehr. Hol sie dir jetzt!</p>
+                <div class="alert alert-warning">
+                    Hinweis: Die App befindet sich derzeit noch in der Beta-Phase. D. h. es sind
+                    momentan nur einige limitierte Funktionen verfügbar.
+                </div>
+                <div class="section-download-box">
+                    <a href="../sources/downloads/PartyOne-04aa68a3446849d980d8a72605c83a72-signed.apk" download>
+                        <div class="download-button">
+                            <i class="material-icons center-vertical-line">save_alt</i>
+                            Download Android (.apk)
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
     </div>
 
     <?php

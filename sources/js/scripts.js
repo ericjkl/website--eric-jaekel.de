@@ -7,6 +7,9 @@ let isScrolling = false;
 window.addEventListener("load", () => {
     for (let element of lazyElements) {
         if (element.getAttribute("data-lazyload-listener") === "focus") {
+            if (element.parentElement.parentElement.parentElement.id === location.hash.substring(1)) {
+                changeSrc(element);
+            }
             lazyElementsOnFocus.push(element);
             element.parentElement.parentElement.parentElement.addEventListener("focus", function () {
                 changeSrc(element);
@@ -20,8 +23,6 @@ window.addEventListener("load", () => {
     window.addEventListener("scroll", scrollListener);
     loadImages();
 });
-
-
 
 function setRelativeHeights() {
     let elementChangeHeight = undefined;
@@ -52,6 +53,8 @@ function setRelativeHeights() {
 }
 
 function changeSrc(element) {
+    console.log(element);
+    if (typeof element !== "object") return false;
     if (element.offsetParent === null) return false;
     if (element.tagName === "PICTURE") {
         for (let elementChild of element.children) {
@@ -79,9 +82,7 @@ function changeSrc(element) {
         } else {
             const dataSrc = element.getAttribute("data-background-image");
             if (typeof dataSrc === "string" && dataSrc.length > 0) {
-                element.style.backgroundImage =
-                    `url("${dataSrc}")`
-                ;
+                element.style.backgroundImage = `url("${dataSrc}")`;
                 return true;
             }
         }
@@ -119,6 +120,65 @@ function scrollListener() {
     setTimeout(function () {
         isScrolling = false;
     }, 100);
+}
+
+
+function showNextImage(currentImage) {
+    if (typeof currentImage !== "object") return false;
+    let nextImage;
+
+    function getNextImage(currentImage) {
+        nextImage = currentImage.nextElementSibling;
+        let nextImageFound = false;
+        while (!nextImageFound) {
+            if (typeof nextImage !== "object") {
+                return false;
+            } else if (nextImage.className === "fullscreen-link") {
+                nextImageFound = true;
+                if (typeof nextImage.id === "string") {
+                    return nextImage;
+                }
+            } else {
+                nextImage = nextImage.nextElementSibling;
+
+            }
+        }
+        return false;
+    }
+
+    nextImage = getNextImage(currentImage);
+    if (typeof nextImage === "object") {
+        location.hash = '#' + nextImage.id;
+    }
+
+    //already load next nextI
+    // mage to prevent loading pause
+    nextImage = getNextImage(nextImage);
+    changeSrc(nextImage.children[0].children[0].children[0]);
+}
+
+function showPreviousImage(currentImage) {
+    if (typeof currentImage !== "object") return false;
+    let previousImage = currentImage.previousElementSibling;
+    let previousImageFound = false;
+    while (!previousImageFound) {
+        if (typeof previousImage !== "object") {
+            return false;
+        } else if (previousImage.className === "fullscreen-link") {
+            previousImageFound = true;
+            if (typeof previousImage.id === "string") {
+                location.hash = '#' + previousImage.id;
+            }
+        } else {
+            previousImage = previousImage.previousElementSibling;
+        }
+    }
+}
+
+function closeFullscreen() {
+    const scrollPos = document.body.scrollTop;
+    location.hash = " ";
+    document.body.scrollTop = scrollPos;
 }
 
 

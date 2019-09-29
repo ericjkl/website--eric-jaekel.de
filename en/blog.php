@@ -1,4 +1,4 @@
-<html lang="de-de" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Blog: Geschichten aus dem Leben eines Star-Fotografen</title>
     <meta name="description" content="Hier gibt es alles rund um das Thema Foto als Blog. Lesen Sie spanndende Storys, News, Kommentare zu bestimmten Themen oder Neuigkeiten aus der Region Leipzig." />

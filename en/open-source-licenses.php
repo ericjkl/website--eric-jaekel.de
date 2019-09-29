@@ -4,6 +4,7 @@
 <head>
     <title>Open Source</title>
     <meta name="description" conten="Alle Open-Source-Lizenzen, die für bestimmte Inhalte auf dieser Webseite gültig sind, werden hier angezeigt." />
+    <link rel="canonical" href="http://www.eric-jaekel.de/de/open-source-licenses.php">
     <?php include 'IncludedContent/head.php';?>
 </head>
 <body>

@@ -35,16 +35,20 @@
     <div>
         <h2>Connect</h2>
         <a href="https://www.instagram.com/eric.jkl/">
-            <img src="/sources/images/instagram-logo.png"/>
+            <img src="/sources/images/instagram-logo.png" class="lazyload"/>
         </a>
         <a href="https://www.facebook.com/profile.php?id=100009464524622">
-            <img src="/sources/images/facebook-logo-blue.png"/>
+            <img src="/sources/images/facebook-logo-blue.png" class="lazyload"/>
         </a><br/>
         <a href="https://www.patreon.com/join/ericjkl">
-            <img src="/sources/images/Patreon_Navy.jpg" class="wide"/>
+            <img src="/sources/images/Patreon_Navy.jpg" class="wide lazyload"/>
         </a>
         <a href="https://500px.com/ericjkl">
-            <img src="/sources/images/500px_logo_light.png" class="wide"/>
+            <img src="/sources/images/500px_logo_light.png" class="wide lazyload"/>
+        </a>
+        <a href="https://www.shuttout.com/user/5c8e1d6f35c94e693a160072">
+            <img class="lazyload wide" src="/sources/images/preloader.svg"
+                 data-src="/sources/images/shoutout-logo.png"/>
         </a>
     </div>
 

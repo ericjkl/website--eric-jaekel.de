@@ -32,16 +32,24 @@
         <div>
             <h2>Connect</h2>
             <a href="https://www.instagram.com/eric.jkl/">
-                <img class="lazyload" src="../sources/images/preloader.svg" data-src="/sources/images/instagram-logo.png" />
+                <img class="lazyload" src="/sources/images/preloader.svg"
+                     data-src="/sources/images/instagram-logo.png"/>
             </a>
             <a href="https://www.facebook.com/profile.php?id=100009464524622">
-                <img class="lazyload" src="../sources/images/preloader.svg" data-src="/sources/images/facebook-logo-blue.png" />
+                <img class="lazyload" src="/sources/images/preloader.svg"
+                     data-src="/sources/images/facebook-logo-blue.png"/>
             </a><br/>
             <a href="https://www.patreon.com/join/ericjkl">
-                <img class="lazyload" src="../sources/images/preloader.svg" data-src="/sources/images/Patreon_Navy.jpg" class="wide"/>
+                <img class="lazyload wide" src="/sources/images/preloader.svg"
+                     data-src="/sources/images/Patreon_Navy.jpg"/>
             </a>
             <a href="https://500px.com/ericjkl">
-                <img class="lazyload" src="../sources/images/preloader.svg" data-src="/sources/images/500px_logo_light.png" class="wide"/>
+                <img class="lazyload wide" src="/sources/images/preloader.svg"
+                     data-src="/sources/images/500px_logo_light.png"/>
+            </a>
+            <a href="https://www.shuttout.com/user/5c8e1d6f35c94e693a160072">
+                <img class="lazyload wide" src="/sources/images/preloader.svg"
+                     data-src="/sources/images/shoutout-logo.png"/>
             </a>
         </div>
 
